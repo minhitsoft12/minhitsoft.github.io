@@ -1,0 +1,660 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>Đơn hàng</title>
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.3/css/all.css" />
+    <link rel="stylesheet" type="text/css"
+        href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css" />
+    <link rel="stylesheet" type="text/css"
+        href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.theme.default.min.css" />
+    <link
+        href="https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@300;400;500;600;700&family=Roboto:ital,wght@0,100;0,300;0,400;0,700;0,900;1,300;1,700&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+        integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <link rel="stylesheet"
+        href="https://cdnjs.cloudflare.com/ajax/libs/ion-rangeslider/2.3.1/css/ion.rangeSlider.min.css" />
+    <link rel="stylesheet" href="../../css/styles.css" />
+</head>
+
+<body>
+    <div class="menu-phanloai">
+        <div class="menu-phanloai-header clearfix">
+            <span>Phân loại dự án</span>
+            <a href="#" class="close-menu float-right"><i class="fas fa-times"></i></a>
+        </div>
+        <div class="menu-phanloai-box">
+            <ul class="menu-drop">
+
+            </ul>
+        </div>
+    </div>
+    <header class="header">
+        <div class="header-main-bar">
+            <div class="container header-main-box">
+                <div class="header-logo-box">
+                    <div class="header-logo-box-big">
+                        <a href="../pages/home.html">
+                            <img src="../../images/logo.png" alt="">
+                        </a>
+                    </div>
+                    <div class="header-logo-box-small">
+                        <a href="../pages/home.html">
+                            <img src="../../images/logo-small.png" alt="">
+                        </a>
+                    </div>
+                    <span><i class="fas fa-chevron-down"></i></span>
+                </div>
+                <div class="header-menu-box">
+                    <div class="header-phone-btn">
+                        <a href="tel:012929394"><img src="../../images/phone.png" alt=""></a>
+                    </div>
+                    <ul class="nav-menu">
+                        <li class="menu-item"><a href="../pages/home.html"><span class="icon"><img
+                                        src="../../images/corner-left-up.png" alt=""></span>Trang chủ</a></li>
+                        <li class="menu-item"><a href="../pages/list_project.html"><span class="icon"><img
+                                        src="../../images/icon-menu5.png" alt=""></span>Dự án</a></li>
+                        <li class="menu-item has-menu-drp">
+                            <div class="has-menu-btn-show"></div>
+                            <a href="#"><span class="icon"><img src="../../images/icon-menu1.png" alt=""></span>Dịch
+                                vụ</i></a>
+                            <i class="fas fa-chevron-down"></i>
+                            <ul class="nav-menu-dropdown">
+                                <li><a href="#">Công nghệ</a></li>
+                                <li><a href="#">Marketing</a></li>
+                                <li><a href="#">Phát triển</a></li>
+                                <li><a href="#">Phân phối</a></li>
+                            </ul>
+                        </li>
+                        <li class="menu-item has-menu-drp">
+                            <div class="has-menu-btn-show"></div>
+                            <a href="#"><span class="icon"><img src="../../images/icon-menu2.png" alt=""></span>Tin
+                                tức</a>
+                            <i class="fas fa-chevron-down"></i>
+                            <ul class="nav-menu-dropdown">
+                                <li><a href="#">Công nghệ</a></li>
+                                <li><a href="#">Marketing</a></li>
+                                <li><a href="#">Phát triển</a></li>
+                                <li><a href="#">Phân phối</a></li>
+                            </ul>
+                        </li>
+                        <li class="menu-item"><a href="#"><span class="icon"><img src="../../images/icon-menu3.png"
+                                        alt=""></span>Về RETI</a></li>
+                        <li class="menu-item"><a href="#"><span class="icon"><img src="../../images/icon-menu4.png"
+                                        alt=""></span>Trở thành đại lý</a></li>
+                    </ul>
+                    <ul class="header-fnc">
+                        <li><a href="#">
+                                <span><i class="fas fa-user"></i></span>
+                            </a></li>
+                        <li><a href="#">
+                                <span><i class="fas fa-heart"></i></span>
+                            </a></li>
+                    </ul>
+                </div>
+            </div>
+        </div> <!-- header-main-bar -->
+        <div class="header-bottom-bar">
+            <div class="container header-bottom-box">
+                <div class="bottom-show-menu">
+                    <a>
+                        <span>Phân loại dự án</span>
+                        <span class="icon-dropdown"><i class="fas fa-chevron-down"></i></span>
+                    </a>
+                </div>
+                <div class="header-search">
+                    <form action="">
+                        <input type="text" placeholder="Nhập tên dự án hoặc khu vực bạn muốn tìm">
+                        <button><i class="fas fa-search"></i></button>
+                    </form>
+                </div>
+                <div class="menu-dropdown">
+                    <ul class="menu-drd-level-1">
+                        <li class="menu-drd-item active has-drop">
+                            <a href="#" id="show-noibat">Nổi bật tháng</a>
+                        </li>
+                        <li class="menu-drd-item has-drop">
+                            <a href="#" id="show-loaihinhbds">Loại hình BĐS</a>
+                        </li>
+                        <li class="menu-drd-item has-drop">
+                            <a href="#" id="show-khuvuc">Khu vực</a>
+                        </li>
+                        <li class="menu-drd-item has-drop">
+                            <a href="#" id="show-khoanggia">Khoảng giá</a>
+                        </li>
+                        <li class="menu-drd-item has-drop">
+                            <a href="#" id="show-chudautu">Chủ đầu tư</a>
+                        </li>
+                    </ul> <!-- menu-drd-level-1 -->
+
+                    <!-- Nổi bật tháng -->
+                    <div class="menu-style menu-style-1 active" id="noibat">
+                        <div class="menu-style1-box">
+                            <ul class="">
+                                <li class="menu-drd-item">
+
+                                    <a href="#"><i class="fas fa-chevron-right"></i> Apec Mandala Wyndham Mũi Né</a>
+                                </li>
+                                <li class="menu-drd-item">
+
+                                    <a href="#"><i class="fas fa-chevron-right"></i> Sun Feria Hạ Long</a>
+                                </li>
+                                <li class="menu-drd-item">
+
+                                    <a href="#"><i class="fas fa-chevron-right"></i> Vinhomes Ocean Park</a>
+                                </li>
+                            </ul>
+                        </div>
+                    </div> <!-- Nổi bật tháng -->
+
+                    <!-- Loại hình BĐS -->
+                    <div class="menu-style menu-style-1" id="loaihinhbds">
+                        <div class="menu-style1-box menu-child-menu ">
+                            <ul>
+                                <li class="menu-drd-item">
+
+                                    <a href="#"><i class="fas fa-chevron-right"></i> Condotel</a>
+                                </li>
+                                <li class="menu-drd-item">
+
+                                    <a href="#"><i class="fas fa-chevron-right"></i> Chung cư</a>
+                                </li>
+                                <li class="menu-drd-item">
+
+                                    <a href="#"><i class="fas fa-chevron-right"></i> Căn hộ Studio</a>
+                                </li>
+                                <li class="menu-drd-item">
+
+                                    <a href="#"><i class="fas fa-chevron-right"></i> Duplex</a>
+                                </li>
+                                <li class="menu-drd-item">
+
+                                    <a href="#"><i class="fas fa-chevron-right"></i> Đất nền</a>
+                                </li>
+                                <li class="menu-drd-item">
+
+                                    <a href="#"><i class="fas fa-chevron-right"></i> Biệt thự biển</a>
+                                </li>
+                                <li class="menu-drd-item">
+
+                                    <a href="#"><i class="fas fa-chevron-right"></i> Duplex</a>
+                                </li>
+                                <li class="menu-drd-item">
+
+                                    <a href="#"><i class="fas fa-chevron-right"></i> Đất nền</a>
+                                </li>
+                                <li class="menu-drd-item">
+
+                                    <a href="#"><i class="fas fa-chevron-right"></i> Biệt thự biển</a>
+                                </li>
+                                <li class="menu-drd-item">
+
+                                    <a href="#"><i class="fas fa-chevron-right"></i> Condotel</a>
+                                </li>
+                                <li class="menu-drd-item">
+
+                                    <a href="#"><i class="fas fa-chevron-right"></i> Chung cư</a>
+                                </li>
+                                <li class="menu-drd-item">
+
+                                    <a href="#"><i class="fas fa-chevron-right"></i> Căn hộ Studio</a>
+                                </li>
+                                <li class="menu-drd-item">
+
+                                    <a href="#"><i class="fas fa-chevron-right"></i> Duplex</a>
+                                </li>
+                                <li class="menu-drd-item">
+
+                                    <a href="#"><i class="fas fa-chevron-right"></i> Đất nền</a>
+                                </li>
+                                <li class="menu-drd-item">
+
+                                    <a href="#"><i class="fas fa-chevron-right"></i> Biệt thự biển</a>
+                                </li>
+                                <li class="menu-drd-item">
+
+                                    <a href="#"><i class="fas fa-chevron-right"></i> Duplex</a>
+                                </li>
+                                <li class="menu-drd-item">
+
+                                    <a href="#"><i class="fas fa-chevron-right"></i> Đất nền</a>
+                                </li>
+                                <li class="menu-drd-item">
+
+                                    <a href="#"><i class="fas fa-chevron-right"></i> Biệt thự biển</a>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                    <!--loaihinhbds-->
+
+
+                    <!-- Khu vực -->
+                    <div class="menu-style menu-style-2" id="khuvuc">
+                        <div>
+                            <ul class="menu-drd-level-1">
+                                <li class="menu-drd-item active has-drop">
+                                    <a href="#"> <i class="fas fa-chevron-right"></i> Tp. Hồ Chí Minh</a>
+                                    <div class="menu-style-2-child menu-child-menu">
+                                        <ul>
+                                            <li class="menu-drd-item">
+
+                                                <a href="#"><i class="fas fa-chevron-right"></i> Tất cả</a>
+                                            </li>
+                                            <li class="menu-drd-item">
+
+                                                <a href="#"><i class="fas fa-chevron-right"></i> Quận 1</a>
+                                            </li>
+                                            <li class="menu-drd-item">
+
+                                                <a href="#"><i class="fas fa-chevron-right"></i> Quân 2</a>
+                                            </li>
+                                            <li class="menu-drd-item">
+
+                                                <a href="#"><i class="fas fa-chevron-right"></i> Quân 3</a>
+                                            </li>
+                                            <li class="menu-drd-item">
+
+                                                <a href="#"><i class="fas fa-chevron-right"></i> Quân 4</a>
+                                            </li>
+                                            <li class="menu-drd-item">
+
+                                                <a href="#"><i class="fas fa-chevron-right"></i> Quân 5</a>
+                                            </li>
+                                            <li class="menu-drd-item">
+
+                                                <a href="#"><i class="fas fa-chevron-right"></i> Quân 6</a>
+                                            </li>
+                                            <li class="menu-drd-item">
+
+                                                <a href="#"><i class="fas fa-chevron-right"></i> Quân 7</a>
+                                            </li>
+                                            <li class="menu-drd-item">
+
+                                                <a href="#"><i class="fas fa-chevron-right"></i> Quân 8</a>
+                                            </li>
+                                            <li class="menu-drd-item">
+
+                                                <a href="#"><i class="fas fa-chevron-right"></i> Quân 9</a>
+                                            </li>
+
+
+                                        </ul>
+                                    </div> <!-- menu-style-2-child -->
+                                </li>
+                                <li class="menu-drd-item has-drop">
+                                    <a href="#"><i class="fas fa-chevron-right"></i> Hà Nội</a>
+                                    <div class="menu-style-2-child menu-child-menu active">
+                                        <ul>
+                                            <li class="menu-drd-item">
+                                                <a href="#"><i class="fas fa-chevron-right"></i> Tất cả</a>
+                                            </li>
+                                            <li class="menu-drd-item">
+                                                <a href="#"><i class="fas fa-chevron-right"></i> Q.Ba Đình</a>
+                                            </li>
+                                            <li class="menu-drd-item">
+                                                <a href="#"><i class="fas fa-chevron-right"></i> Q.Hoàn Kiếm</a>
+                                            </li>
+                                            <li class="menu-drd-item">
+                                                <a href="#"><i class="fas fa-chevron-right"></i> Q.Tây Hồ</a>
+                                            </li>
+                                            <li class="menu-drd-item">
+                                                <a href="#"><i class="fas fa-chevron-right"></i> Q.Đống Đa</a>
+                                            </li>
+                                            <li class="menu-drd-item">
+                                                <a href="#"><i class="fas fa-chevron-right"></i> Q.Hoàng Mai</a>
+                                            </li>
+                                            <li class="menu-drd-item">
+                                                <a href="#"><i class="fas fa-chevron-right"></i> Q.Hai Bà Trưng</a>
+                                            </li>
+                                            <li class="menu-drd-item">
+                                                <a href="#"><i class="fas fa-chevron-right"></i> Q.Thanh Xuân</a>
+                                            </li>
+                                            <li class="menu-drd-item">
+                                                <a href="#"><i class="fas fa-chevron-right"></i> Q.Long Biên</a>
+                                            </li>
+                                            <li class="menu-drd-item">
+                                                <a href="#"><i class="fas fa-chevron-right"></i> Q.Cầu Giấy</a>
+                                            </li>
+                                            <li class="menu-drd-item">
+                                                <a href="#"><i class="fas fa-chevron-right"></i> Q.Hà Đông</a>
+                                            </li>
+                                            <li class="menu-drd-item">
+                                                <a href="#"><i class="fas fa-chevron-right"></i> Q.Bắc Từ Liêm</a>
+                                            </li>
+                                            <li class="menu-drd-item">
+                                                <a href="#"><i class="fas fa-chevron-right"></i> Q.Nam Từ Liêm</a>
+                                            </li>
+                                            <li class="menu-drd-item">
+                                                <a href="#"><i class="fas fa-chevron-right"></i> Huyện Thanh Trì</a>
+                                            </li>
+
+
+                                        </ul>
+                                    </div> <!-- menu-style-2-child -->
+                                </li>
+                                <li class="menu-drd-item has-drop">
+                                    <a href="#"> <i class="fas fa-chevron-right"></i> Đà Nẵng</a>
+                                    <div class="menu-style-2-child menu-child-menu">
+                                        <ul>
+                                            <li class="menu-drd-item">
+
+                                                <a href="#"><i class="fas fa-chevron-right"></i> Tất cả</a>
+                                            </li>
+                                            <li class="menu-drd-item">
+
+                                                <a href="#"><i class="fas fa-chevron-right"></i> Quận 1</a>
+                                            </li>
+                                            <li class="menu-drd-item">
+
+                                                <a href="#"><i class="fas fa-chevron-right"></i> Quân 2</a>
+                                            </li>
+                                            <li class="menu-drd-item">
+
+                                                <a href="#"><i class="fas fa-chevron-right"></i> Quân 3</a>
+                                            </li>
+                                            <li class="menu-drd-item">
+
+                                                <a href="#"><i class="fas fa-chevron-right"></i> Quân 4</a>
+                                            </li>
+                                            <li class="menu-drd-item">
+
+                                                <a href="#"><i class="fas fa-chevron-right"></i> Quân 5</a>
+                                            </li>
+                                            <li class="menu-drd-item">
+
+                                                <a href="#"><i class="fas fa-chevron-right"></i> Quân 6</a>
+                                            </li>
+                                            <li class="menu-drd-item">
+
+                                                <a href="#"><i class="fas fa-chevron-right"></i> Quân 7</a>
+                                            </li>
+                                            <li class="menu-drd-item">
+
+                                                <a href="#"><i class="fas fa-chevron-right"></i> Quân 8</a>
+                                            </li>
+                                            <li class="menu-drd-item">
+
+                                                <a href="#"><i class="fas fa-chevron-right"></i> Quân 9</a>
+                                            </li>
+
+
+                                        </ul>
+                                    </div> <!-- menu-style-2-child -->
+                                </li>
+                            </ul>
+                        </div>
+
+                    </div> <!-- Khu vực -->
+
+                </div>
+            </div>
+
+        </div> <!-- header-bottom-bar -->
+    </header>
+    <main>
+        <!-- /*DON HANG*/ -->
+        <section id="order-page">
+            <div class="container pt-16 mb-379">
+                <div class="partner_reti">
+                    <div class="title-partial">
+                        <img src="../../images/Component_title/Vector.svg" alt="icon" class="icon-title">
+                        <h2>Tạo đơn hàng</h2>
+                    </div>
+                </div>
+                <div class="row no-wrap-ipad wrap-revert">
+                    <div class="order col-lg-7">
+                        <h2 class="title-order">Thông tin liên hệ</h2>
+                        <form action="#">
+                            <div class="form-group">
+                                <label for="mr">Danh xưng<sup>*</sup></label>
+                                <select class="form-control" id="mr">
+                                    <option selected disabled>Vui lòng chọn</option>
+                                    <option>1</option>
+                                    <option>2</option>
+                                </select>
+                            </div>
+                            <div class="form-group">
+                                <label for="first-name">Họ và tên khách hàng<sup>*</sup></label>
+                                <input type="text" class="form-control" id="first-name"
+                                    placeholder="Vui lòng nhập thông tin">
+                            </div>
+                            <div class="form-group">
+                                <label for="phone-number">Số điện thoại<sup>*</sup></label>
+                                <input type="text" class="form-control" id="phone-number"
+                                    placeholder="Vui lòng nhập thông tin">
+                            </div>
+                            <div class="form-group">
+                                <label for="Email">Email</label>
+                                <input type="email" class="form-control" id="Email"
+                                    placeholder="Vui lòng nhập thông tin">
+                            </div>
+                            <div class="form-group">
+                                <label for="adress">Địa chỉ thường trú</label>
+                                <input type="text" class="form-control" id="adress"
+                                    placeholder="Vui lòng nhập thông tin">
+                            </div>
+                            <div class="form-group">
+                                <label for="city">Tỉnh thành phố</label>
+                                <select class="form-control" id="city">
+                                    <option selected disabled>Vui lòng chọn</option>
+                                    <option>1</option>
+                                    <option>2</option>
+                                </select>
+                            </div>
+                            <div class="form-group">
+                                <label for="Textarea1">Ghi chú</label>
+                                <textarea class="form-control" id="Textarea1" rows="4"
+                                    placeholder="Vui lòng nhập thông tin"></textarea>
+                            </div>
+                        </form>
+                        <p class="note"><strong>Ghi chú:</strong> Thông tin quý khách hàng cung cấp chỉ được dùng để
+                            chuyên viên
+                            kinh doanh của
+                            Reti liên hệ tư vấn, triển khai giao dịch bất động sản. Chúng tôi sẽ liên hệ với Quý khách
+                            sớm nhất
+                            để hướng dẫn các bước tiếp theo, ngay sau khi nhận được thông tin đơn hàng</p>
+                        <div class="row justify-content-center">
+                            <a href="#" class="confim">Xác nhận</a>
+                        </div>
+                    </div>
+                    <div class="info-order col-lg-5 p-0">
+                        <div class="info-order-top">
+                            <img src="../../images/af0a021c92c36f9d36d2 1.png" alt="product" class="img-product">
+                            <div class="info-order-bottom">
+                                <div class="adress">
+                                    <img src="../../images/map-pin.png" alt="map">
+                                    <span class="text-adress">69B Thụy Khuê – Quận Tây Hồ – Thành phố Hà Nội</span>
+                                </div>
+                                <h3 class="text-info-order">Căn hộ A-06 - Sun Grand City Thụy Khuê</h3>
+                            </div>
+                        </div>
+
+                        <div class="content-order">
+                            <div class="details-info">
+                                <div class="details-top">
+                                    <div class="row">
+                                        <span class="headings">Diện tích thông thủy:</span>
+                                        <span class="result">120,45m<sup>2</sup></span>
+                                    </div>
+                                    <div class="row">
+                                        <span class="headings">Loại hình:</span>
+                                        <span class="result">Căn hộ cao cấp</span>
+                                    </div>
+                                    <div class="row">
+                                        <span class="headings">Số phòng ngủ:</span>
+                                        <span class="result">3</span>
+                                    </div>
+                                    <div class="row">
+                                        <span class="headings">Hướng:</span>
+                                        <span class="result">Tây Bắc</span>
+                                    </div>
+                                </div>
+                                <div class="price">
+                                    <div class="row">
+                                        <span class="headings">Đơn giá BĐS:<br> <span class="mini-text">(Đã bao gồm VAT,
+                                                KPBT)</span></span>
+                                        <span class="result">71.640.113 vnđ/m<sup>2</sup></span>
+                                    </div>
+                                    <div class="row">
+                                        <span class="headings">Tổng giá niêm yết:<br><span class="mini-text">(Đã bao gồm
+                                                VAT,
+                                                KPBT)</span></span>
+                                        <span class="result">8.993.200.363 vnđ</span>
+                                    </div>
+                                </div>
+                                <div class="discount">
+                                    <div class="row align-items-center">
+                                        <span class="headings">Mã giảm giá</span>
+                                        <input type="text" class="form-control" id="adress"
+                                            placeholder="Nhập mã giảm giá tại đây">
+                                    </div>
+                                    <div class="row mb-0">
+                                        <span class="headings">
+                                            <span class="bold">Tổng GTCH</span>
+                                            <span class="mini-text">(sau CK - nếucó)</span>
+                                        </span>
+                                        <span class="result orange">8.993.200.363 vnđ</span>
+                                    </div>
+                                </div>
+                                <div class="deposit">
+                                    <div class="row">
+                                        <span class="deposit-headings">Số tiền cọc</span>
+                                        <span class="result orange">8.993.200.363 vnđ</span>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <div class="space"></div>
+        <section class="home-section-11">
+            <div class="home-banner-small">
+                <div class="blur"></div>
+                <div class="info-mobile">
+                    <p>Chuyên viên RETI luôn sẵn sàng giúp đỡ mọi nhu cầu bất động sản của bạn</p>
+                    <button>Liên hệ ngay</button>
+                </div>
+            </div>
+        </section> <!-- Banner Small Home  -->
+    </main>
+
+    <footer>
+        <div id="footer">
+            <div class="top-footer">
+                <div class="container">
+                    <img src="../../images/footer/Group.png" alt="" class="logo">
+                    <div class="row">
+                        <div class="col-lg-4 col-md-4 col-12 border-mobile introduce">
+                            <div class="logo-footer">
+                                <span class="sologan">Smart move, Life changer</span>
+                            </div>
+                            <div class="adress mt-20">
+                                <img src="../../images/footer/Vector.png" alt="">
+                                <span>Số 9a ngõ 9 Hoàng Cầu, Đống Đa, Hà Nội</span>
+                            </div>
+                            <div class="phone-number mt-20">
+                                <img src="../../images//footer/vector2.png" alt="">
+                                <span>0988 969 879</span>
+                            </div>
+                            <div class="mail mt-20">
+                                <img src="../../images//footer/vector3.png" alt="">
+                                <span>support@reti.vn</span>
+                            </div>
+                            <div class="social-network mt-20">
+                                <img src="../../images/footer/face.png" alt="facebook">
+                                <img src="../../images/footer/insta.png" alt="insta">
+                                <img src="../../images/footer/in.png" alt="in">
+                            </div>
+                        </div>
+                        <div class="col-lg-8 col-md-8 col-12 row ml-0 mr-0 info-footer footer-nowrap">
+                            <div class="col-lg-4">
+                                <div class="project-footer">
+                                    <h6 class="title-footer">Dự án</h6>
+                                    <ul>
+                                        <li><a href="#">Về RETI</a></li>
+                                        <li><a href="#">Trở thành Đại lý</a></li>
+                                    </ul>
+                                </div>
+                            </div>
+                            <div class="col-lg-4">
+                                <div class="sevice">
+                                    <h6 class="title-footer">Dịch vụ</h6>
+                                    <ul>
+                                        <li><a href="#">Công nghệ</a></li>
+                                        <li><a href="#">Marketing</a></li>
+                                        <li><a href="#">Phát triển BĐS</a></li>
+                                        <li><a href="#">Phân phối BĐS</a></li>
+                                    </ul>
+                                </div>
+                            </div>
+                            <div class="col-lg-3">
+                                <div class="sevice">
+                                    <h6 class="title-footer">Tin tức</h6>
+                                    <ul>
+                                        <li><a href="#">Tin thị trường</a></li>
+                                        <li><a href="#">Phân tích dự án</a></li>
+                                        <li><a href="#">Pháp luật BĐS</a></li>
+                                        <li><a href="#">Cẩm nang BĐS</a></li>
+                                        <li><a href="#">Phong thủy BĐS</a></li>
+                                        <li class="view-all"><a href="#">Xem tất cả</a></li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="bottom-footer">
+                <div class="container">
+                    <div class="row align-items-center">
+                        <div class="col-lg-8 col-md-8 col-sm-12">
+                            <img src="../../images/footer/bo-cong-thuong 1.png" alt="">
+                            <p class="font-size-bottom">Giấy chứng nhận Đăng ký Kinh doanh số 0109115418, cấp ngày
+                                4/03/2020
+                                tại Hà Nội</p>
+                        </div>
+                        <div class="col-lg-4 col-md-4 col-9 policy">
+                            <div class="row policy-around">
+                                <span class="font-size-bottom policy-color policy-mobile">Chính sách bảo mật</span>
+                                <span class="font-size-bottom policy-color">Điều khoản và điều kiện</span>
+                            </div>
+                            <div class="row license">
+                                <span class="font-size-bottom">© 2020 RETI Đã đăng ký bản quyền.</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+
+
+    <!--Framework JS-->
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"
+        integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN"
+        crossorigin="anonymous"></script>
+    <script src="../../lib/slick/slick.min.js"></script>
+    <script type="text/javascript"
+        src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/ion-rangeslider/2.3.1/js/ion.rangeSlider.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
+        integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
+        crossorigin="anonymous"></script>
+    <script src="../../js/header.js"></script>
+    <script src="../../js/main.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"
+        integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q"
+        crossorigin="anonymous"></script>
+
+</body>
+
+</html>

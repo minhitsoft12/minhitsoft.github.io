@@ -1,0 +1,1535 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>Danh sách dự án</title>
+    <!-- <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.3/css/all.css" /> -->
+    <link rel="stylesheet" href="../../lib/fontawesome-pro-5.0.13/css/all.css">
+    <link rel="stylesheet" type="text/css"
+        href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css" />
+    <link rel="stylesheet" type="text/css"
+        href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.theme.default.min.css" />
+    <link
+        href="https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@300;400;500;600;700&family=Roboto:ital,wght@0,100;0,300;0,400;0,700;0,900;1,300;1,700&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+        integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <link rel="stylesheet"
+        href="https://cdnjs.cloudflare.com/ajax/libs/ion-rangeslider/2.3.1/css/ion.rangeSlider.min.css" />
+    <link rel="stylesheet" href="../../lib/fontawesome-pro-5.0.13/css/all.css" />
+  <link rel="stylesheet" href="../../css/styles.css" />
+</head>
+
+<body>
+    <div class="menu-phanloai">
+        <div class="menu-phanloai-header clearfix">
+            <span>Phân loại dự án</span>
+            <a href="#" class="close-menu float-right"><i class="fas fa-times"></i></a>
+        </div>
+        <div class="menu-phanloai-box">
+            <ul class="menu-drop">
+
+            </ul>
+        </div>
+    </div>
+    <header class="header">
+        <div class="header-main-bar">
+            <div class="container header-main-box">
+                <div class="header-logo-box">
+                    <div class="header-logo-box-big">
+                        <a href="../pages/home.html">
+                            <img src="../../images/logo.png" alt="">
+                        </a>
+                    </div>
+                    <div class="header-logo-box-small">
+                        <a href="../pages/home.html">
+                            <img src="../../images/logo-small.png" alt="">
+                        </a>
+                    </div>
+                    <span><i class="fas fa-chevron-down"></i></span>
+                </div>
+                <div class="header-menu-box">
+                    <div class="header-phone-btn">
+                        <a href="tel:012929394"><img src="../../images/phone.png" alt=""></a>
+                    </div>
+                    <ul class="nav-menu">
+                        <li class="menu-item"><a href="../pages/home.html"><span class="icon"><img
+                                        src="../../images/corner-left-up.png" alt=""></span>Trang chủ</a></li>
+                        <li class="menu-item"><a href="../pages/list_project.html"><span class="icon"><img
+                                        src="../../images/icon-menu5.png" alt=""></span>Dự án</a></li>
+                        <li class="menu-item has-menu-drp">
+                            <div class="has-menu-btn-show"></div>
+                            <a href="#"><span class="icon"><img src="../../images/icon-menu1.png" alt=""></span>Dịch
+                                vụ</i></a>
+                            <i class="fas fa-chevron-down"></i>
+                            <ul class="nav-menu-dropdown">
+                                <li><a href="#">Công nghệ</a></li>
+                                <li><a href="#">Marketing</a></li>
+                                <li><a href="#">Phát triển</a></li>
+                                <li><a href="#">Phân phối</a></li>
+                            </ul>
+                        </li>
+                        <li class="menu-item has-menu-drp">
+                            <div class="has-menu-btn-show"></div>
+                            <a href="#"><span class="icon"><img src="../../images/icon-menu2.png" alt=""></span>Tin
+                                tức</a>
+                            <i class="fas fa-chevron-down"></i>
+                            <ul class="nav-menu-dropdown">
+                                <li><a href="#">Tin thị trường</a></li>
+                                <li><a href="#">Phân tích dự án</a></li>
+                                <li><a href="#">Pháp luật BĐS</a></li>
+                                <li><a href="#">Cẩm nang BĐS</a></li>
+                                <li><a href="#">Phong thuỷ BĐS</a></li>
+                            </ul>
+                        </li>
+                        <li class="menu-item"><a href="#"><span class="icon"><img src="../../images/icon-menu3.png"
+                                        alt=""></span>Về RETI</a></li>
+                        <li class="menu-item"><a href="#"><span class="icon"><img src="../../images/icon-menu4.png"
+                                        alt=""></span>Trở thành đại lý</a></li>
+                    </ul>
+                    <ul class="header-fnc">
+                        <li><a href="#">
+                                <span><i class="fas fa-user"></i></span>
+                            </a></li>
+                        <li><a href="#">
+                                <span><i class="fas fa-heart"></i></span>
+                            </a></li>
+                    </ul>
+                </div>
+            </div>
+        </div> <!-- header-main-bar -->
+        <div class="header-bottom-bar">
+            <div class="container header-bottom-box">
+                <div class="bottom-show-menu">
+                    <a>
+                        <span>Phân loại dự án</span>
+                        <span class="icon-dropdown"><i class="fas fa-chevron-down"></i></span>
+                    </a>
+                </div>
+                <div class="header-search">
+                    <form action="">
+                        <input type="text" placeholder="Nhập tên dự án hoặc khu vực bạn muốn tìm">
+                        <button><i class="fas fa-search"></i></button>
+                    </form>
+                </div>
+                <div class="menu-dropdown">
+                    <ul class="menu-drd-level-1">
+                        <li class="menu-drd-item active has-drop">
+                            <a href="#" id="show-noibat">Nổi bật tháng</a>
+                        </li>
+                        <li class="menu-drd-item has-drop">
+                            <a href="#" id="show-loaihinhbds">Loại hình BĐS</a>
+                        </li>
+                        <li class="menu-drd-item has-drop">
+                            <a href="#" id="show-khuvuc">Khu vực</a>
+                        </li>
+                        <li class="menu-drd-item has-drop">
+                            <a href="#" id="show-khoanggia">Khoảng giá</a>
+                        </li>
+                        <li class="menu-drd-item has-drop">
+                            <a href="#" id="show-chudautu">Chủ đầu tư</a>
+                        </li>
+                    </ul> <!-- menu-drd-level-1 -->
+
+                    <!-- Nổi bật tháng -->
+                    <div class="menu-style menu-style-1 active" id="noibat">
+                        <div class="menu-style1-box">
+                            <ul class="">
+                                <li class="menu-drd-item">
+
+                                    <a href="#"><i class="fas fa-chevron-right"></i> Apec Mandala Wyndham Mũi Né</a>
+                                </li>
+                                <li class="menu-drd-item">
+
+                                    <a href="#"><i class="fas fa-chevron-right"></i> Sun Feria Hạ Long</a>
+                                </li>
+                                <li class="menu-drd-item">
+
+                                    <a href="#"><i class="fas fa-chevron-right"></i> Vinhomes Ocean Park</a>
+                                </li>
+                            </ul>
+                        </div>
+                    </div> <!-- Nổi bật tháng -->
+
+                    <!-- Loại hình BĐS -->
+                    <div class="menu-style menu-style-1" id="loaihinhbds">
+                        <div class="menu-style1-box menu-child-menu">
+                            <ul>
+                                <li class="menu-drd-item">
+
+                                    <a href="#"><i class="fas fa-chevron-right"></i> Condotel</a>
+                                </li>
+                                <li class="menu-drd-item">
+
+                                    <a href="#"><i class="fas fa-chevron-right"></i> Chung cư</a>
+                                </li>
+                                <li class="menu-drd-item">
+
+                                    <a href="#"><i class="fas fa-chevron-right"></i> Căn hộ Studio</a>
+                                </li>
+                                <li class="menu-drd-item">
+
+                                    <a href="#"><i class="fas fa-chevron-right"></i> Duplex</a>
+                                </li>
+                                <li class="menu-drd-item">
+
+                                    <a href="#"><i class="fas fa-chevron-right"></i> Đất nền</a>
+                                </li>
+                                <li class="menu-drd-item">
+
+                                    <a href="#"><i class="fas fa-chevron-right"></i> Biệt thự biển</a>
+                                </li>
+                                <li class="menu-drd-item">
+
+                                    <a href="#"><i class="fas fa-chevron-right"></i> Duplex</a>
+                                </li>
+                                <li class="menu-drd-item">
+
+                                    <a href="#"><i class="fas fa-chevron-right"></i> Đất nền</a>
+                                </li>
+                                <li class="menu-drd-item">
+
+                                    <a href="#"><i class="fas fa-chevron-right"></i> Biệt thự biển</a>
+                                </li>
+                                <li class="menu-drd-item">
+
+                                    <a href="#"><i class="fas fa-chevron-right"></i> Condotel</a>
+                                </li>
+                                <li class="menu-drd-item">
+
+                                    <a href="#"><i class="fas fa-chevron-right"></i> Chung cư</a>
+                                </li>
+                                <li class="menu-drd-item">
+
+                                    <a href="#"><i class="fas fa-chevron-right"></i> Căn hộ Studio</a>
+                                </li>
+                                <li class="menu-drd-item">
+
+                                    <a href="#"><i class="fas fa-chevron-right"></i> Duplex</a>
+                                </li>
+                                <li class="menu-drd-item">
+
+                                    <a href="#"><i class="fas fa-chevron-right"></i> Đất nền</a>
+                                </li>
+                                <li class="menu-drd-item">
+
+                                    <a href="#"><i class="fas fa-chevron-right"></i> Biệt thự biển</a>
+                                </li>
+                                <li class="menu-drd-item">
+
+                                    <a href="#"><i class="fas fa-chevron-right"></i> Duplex</a>
+                                </li>
+                                <li class="menu-drd-item">
+
+                                    <a href="#"><i class="fas fa-chevron-right"></i> Đất nền</a>
+                                </li>
+                                <li class="menu-drd-item">
+
+                                    <a href="#"><i class="fas fa-chevron-right"></i> Biệt thự biển</a>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                    <!--loaihinhbds-->
+
+
+                    <!-- Khu vực -->
+                    <div class="menu-style menu-style-2" id="khuvuc">
+                        <div>
+                            <ul class="menu-drd-level-1">
+                                <li class="menu-drd-item active has-drop">
+                                    <a href="#"><i class="fas fa-chevron-right"></i> Tp. Hồ Chí Minh</a>
+                                    <div class="menu-style-2-child menu-child-menu">
+                                        <ul>
+                                            <li class="menu-drd-item">
+
+                                                <a href="#"><i class="fas fa-chevron-right"></i> Tất cả</a>
+                                            </li>
+                                            <li class="menu-drd-item">
+
+                                                <a href="#"><i class="fas fa-chevron-right"></i> Quận 1</a>
+                                            </li>
+                                            <li class="menu-drd-item">
+
+                                                <a href="#"><i class="fas fa-chevron-right"></i> Quận 2</a>
+                                            </li>
+                                            <li class="menu-drd-item">
+
+                                                <a href="#"><i class="fas fa-chevron-right"></i> Quận 3</a>
+                                            </li>
+                                            <li class="menu-drd-item">
+
+                                                <a href="#"><i class="fas fa-chevron-right"></i> Quận 4</a>
+                                            </li>
+                                            <li class="menu-drd-item">
+
+                                                <a href="#"><i class="fas fa-chevron-right"></i> Quận 5</a>
+                                            </li>
+                                            <li class="menu-drd-item">
+
+                                                <a href="#"><i class="fas fa-chevron-right"></i> Quận 6</a>
+                                            </li>
+                                            <li class="menu-drd-item">
+
+                                                <a href="#"><i class="fas fa-chevron-right"></i> Quận 7</a>
+                                            </li>
+                                            <li class="menu-drd-item">
+
+                                                <a href="#"><i class="fas fa-chevron-right"></i> Quận 8</a>
+                                            </li>
+                                            <li class="menu-drd-item">
+
+                                                <a href="#"><i class="fas fa-chevron-right"></i> Quận 9</a>
+                                            </li>
+
+
+                                        </ul>
+                                    </div> <!-- menu-style-2-child -->
+                                </li>
+                                <li class="menu-drd-item has-drop">
+                                    <a href="#"><i class="fas fa-chevron-right"></i> Hà Nội</a>
+                                    <div class="menu-style-2-child menu-child-menu active">
+                                        <ul>
+                                            <li class="menu-drd-item">
+                                                <a href="#"><i class="fas fa-chevron-right"></i> Tất cả</a>
+                                            </li>
+                                            <li class="menu-drd-item">
+                                                <a href="#"><i class="fas fa-chevron-right"></i> Q.Ba Đình</a>
+                                            </li>
+                                            <li class="menu-drd-item">
+                                                <a href="#"><i class="fas fa-chevron-right"></i> Q.Hoàn Kiếm</a>
+                                            </li>
+                                            <li class="menu-drd-item">
+                                                <a href="#"><i class="fas fa-chevron-right"></i> Q.Tây Hồ</a>
+                                            </li>
+                                            <li class="menu-drd-item">
+                                                <a href="#"><i class="fas fa-chevron-right"></i> Q.Đống Đa</a>
+                                            </li>
+                                            <li class="menu-drd-item">
+                                                <a href="#"><i class="fas fa-chevron-right"></i> Q.Hoàng Mai</a>
+                                            </li>
+                                            <li class="menu-drd-item">
+                                                <a href="#"><i class="fas fa-chevron-right"></i> Q.Hai Bà Trưng</a>
+                                            </li>
+                                            <li class="menu-drd-item">
+                                                <a href="#"><i class="fas fa-chevron-right"></i> Q.Thanh Xuân</a>
+                                            </li>
+                                            <li class="menu-drd-item">
+                                                <a href="#"><i class="fas fa-chevron-right"></i> Q.Long Biên</a>
+                                            </li>
+                                            <li class="menu-drd-item">
+                                                <a href="#"><i class="fas fa-chevron-right"></i> Q.Cầu Giấy</a>
+                                            </li>
+                                            <li class="menu-drd-item">
+                                                <a href="#"><i class="fas fa-chevron-right"></i> Q.Hà Đông</a>
+                                            </li>
+                                            <li class="menu-drd-item">
+                                                <a href="#"><i class="fas fa-chevron-right"></i> Q.Bắc Từ Liêm</a>
+                                            </li>
+                                            <li class="menu-drd-item">
+                                                <a href="#"><i class="fas fa-chevron-right"></i> Q.Nam Từ Liêm</a>
+                                            </li>
+                                            <li class="menu-drd-item">
+                                                <a href="#"><i class="fas fa-chevron-right"></i> Huyện Thanh Trì</a>
+                                            </li>
+
+
+                                        </ul>
+                                    </div> <!-- menu-style-2-child -->
+                                </li>
+                                <li class="menu-drd-item has-drop">
+                                    <a href="#"><i class="fas fa-chevron-right"></i> Đà Nẵng</a>
+                                    <div class="menu-style-2-child menu-child-menu">
+                                        <ul>
+                                            <li class="menu-drd-item">
+
+                                                <a href="#"><i class="fas fa-chevron-right"></i> Tất cả</a>
+                                            </li>
+                                            <li class="menu-drd-item">
+
+                                                <a href="#"><i class="fas fa-chevron-right"></i> Quận 1</a>
+                                            </li>
+                                            <li class="menu-drd-item">
+
+                                                <a href="#"><i class="fas fa-chevron-right"></i> Quận 2</a>
+                                            </li>
+                                            <li class="menu-drd-item">
+
+                                                <a href="#"><i class="fas fa-chevron-right"></i> Quận 3</a>
+                                            </li>
+                                            <li class="menu-drd-item">
+
+                                                <a href="#"><i class="fas fa-chevron-right"></i> Quận 4</a>
+                                            </li>
+                                            <li class="menu-drd-item">
+
+                                                <a href="#"><i class="fas fa-chevron-right"></i> Quận 5</a>
+                                            </li>
+                                            <li class="menu-drd-item">
+
+                                                <a href="#"><i class="fas fa-chevron-right"></i> Quận 6</a>
+                                            </li>
+                                            <li class="menu-drd-item">
+
+                                                <a href="#"><i class="fas fa-chevron-right"></i> Quận 7</a>
+                                            </li>
+                                            <li class="menu-drd-item">
+
+                                                <a href="#"><i class="fas fa-chevron-right"></i> Quận 8</a>
+                                            </li>
+                                            <li class="menu-drd-item">
+
+                                                <a href="#"><i class="fas fa-chevron-right"></i> Quận 9</a>
+                                            </li>
+
+
+                                        </ul>
+                                    </div> <!-- menu-style-2-child -->
+                                </li>
+                            </ul>
+                        </div>
+
+                    </div> <!-- Khu vực -->
+
+                </div>
+            </div>
+
+        </div> <!-- header-bottom-bar -->
+    </header>
+
+    <main>
+        <!-- filter-control -->
+        <section id="filter-control">
+            <div class="container">
+                <div class="filter-control">
+                    <div class="fileter-control-mobile-header">
+                        <div class="refresh-btn text-left">
+                            <a href="#" id="refresh-fileter">Làm mới</a>
+                        </div>
+                        <div class="filter-control-title text-center">
+                            <h4>Bộ lọc</h4>
+                        </div>
+                        <div class="close-btn text-right">
+                            <a href="#" id="close-filter"><i class="fas fa-times"></i></a>
+                        </div>
+
+                    </div>
+                    <div class="row justify-content-end align-items-center position-relative">
+                        <div class="price-bds btn-control">
+                            <button class="btn-filter">Loại hình BĐS <i class="fas fa-chevron-down"></i></button>
+                            <div class="property-type control-table">
+                                <p class="text-filter">Loại hình BĐS</p>
+                                <form>
+                                    <div class="row ml-0 mr-0">
+                                        <div class="custom-control custom-checkbox mb-15 col-6">
+                                            <input type="checkbox" class="custom-control-input" id="customCheck"
+                                                name="Condotel">
+                                            <label class="custom-control-label" for="customCheck">Condotel</label>
+                                        </div>
+                                        <div class="custom-control custom-checkbox mb-15 col-6">
+                                            <input type="checkbox" class="custom-control-input" id="customCheck1"
+                                                name="Officetel">
+                                            <label class="custom-control-label" for="customCheck1">Officetel</label>
+                                        </div>
+                                        <div class="custom-control custom-checkbox mb-15 col-6">
+                                            <input type="checkbox" class="custom-control-input" id="datnen"
+                                                name="datnen">
+                                            <label class="custom-control-label" for="datnen">Đất nền</label>
+                                        </div>
+                                        <div class="custom-control custom-checkbox mb-15 col-6">
+                                            <input type="checkbox" class="custom-control-input" id="Bungalow"
+                                                name="Bungalow">
+                                            <label class="custom-control-label" for="Bungalow">Bungalow</label>
+                                        </div>
+                                        <div class="custom-control custom-checkbox mb-15 col-6">
+                                            <input type="checkbox" class="custom-control-input" id="apartment"
+                                                name="apartment">
+                                            <label class="custom-control-label" for="apartment">Căn hộ</label>
+                                        </div>
+                                        <div class="custom-control custom-checkbox mb-15 col-6">
+                                            <input type="checkbox" class="custom-control-input" id="villa" name="villa">
+                                            <label class="custom-control-label" for="villa">Biệt thự biển</label>
+                                        </div>
+                                        <div class="custom-control custom-checkbox mb-15 col-6">
+                                            <input type="checkbox" class="custom-control-input" id="apartmentstudio"
+                                                name="apartmentstudio">
+                                            <label class="custom-control-label" for="apartmentstudio">Căn hộ
+                                                studio</label>
+                                        </div>
+                                        <div class="custom-control custom-checkbox mb-15 col-12">
+                                            <input type="checkbox" class="custom-control-input" id="Duplex"
+                                                name="Duplex">
+                                            <label class="custom-control-label" for="Duplex">Duplex</label>
+                                        </div>
+                                    </div>
+                                </form>
+                                <div class="control">
+                                    <div class="row justify-content-end">
+                                        <button class="btn-delete">Xoá</button>
+                                        <button class="btn-update">Cập nhật</button>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="price btn-control">
+                            <button class="btn-filter">Giá<i class="fas fa-chevron-down"></i></button>
+                            <div class="price-range control-table">
+                                <p class="text-filter">Khoảng giá (Tỷ VNĐ)</p>
+                                <div class="range pb-20">
+                                    <input type="text" class="js-range-slider" name="my_range" value=""
+                                        data-type="double" data-min="0" data-max="40" data-from="0" data-to="12"
+                                        data-grid="true" />
+                                </div>
+                                <div class="control">
+                                    <div class="row justify-content-end">
+                                        <button class="btn-delete">Xoá bộ lọc</button>
+                                        <button class="btn-update">Cập nhật</button>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="advanced btn-control">
+                            <button class="btn-filter">Nâng cao <i class="fas fa-chevron-down"></i></button>
+                            <div class="filter-more control-table">
+                                <div class="row filter-top">
+                                    <div class="acreage col-12 col-lg-6">
+                                        <p class="text-filter">Diện tích (M2)</p>
+                                        <div class="range pb-20">
+                                            <input type="text" class="js-range-slider2" name="my_range" value=""
+                                                data-type="double" data-min="0" data-max="1000" data-grid="true" />
+                                        </div>
+                                    </div>
+                                    <div class="buy-online col-12 col-lg-6">
+                                        <p class="text-filter">Hình thức mua</p>
+                                        <div class="custom-control custom-switch">
+                                            <input type="checkbox" class="custom-control-input" id="customSwitch1">
+                                            <label class="custom-control-label" for="customSwitch1">Mua nhà trực
+                                                tuyến</label>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="filter-bottom">
+                                    <div class="row">
+                                        <div class="furniture col-12 col-lg-6">
+                                            <p class="text-filter">Nội thất bàn giao</p>
+                                            <div class="row justify-content-between mb-15 pl-15">
+                                                <div class="custom-control custom-checkbox col-6">
+                                                    <input type="checkbox" class="custom-control-input" id="checkTho"
+                                                        name="nhaTho">
+                                                    <label class="custom-control-label" for="checkTho">Thô</label>
+                                                </div>
+                                                <div class="custom-control custom-checkbox col-6">
+                                                    <input type="checkbox" class="custom-control-input" id="checkAll"
+                                                        name="filterAll">
+                                                    <label class="custom-control-label" for="checkAll">Toàn bộ</label>
+                                                </div>
+                                            </div>
+                                            <div class="row justify-content-between mb-15 pl-15">
+                                                <div class="custom-control custom-checkbox col-6">
+                                                    <input type="checkbox" class="custom-control-input"
+                                                        id="checkDinhtuong" name="filterDinhtuong">
+                                                    <label class="custom-control-label" for="checkDinhtuong">Đính
+                                                        tường</label>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="project col-12 col-lg-6">
+                                            <p class="text-filter">Đặc tính dự án</p>
+                                            <div class="row justify-content-between mb-15 pl-15">
+                                                <div class="custom-control custom-checkbox col-6">
+                                                    <input type="checkbox" class="custom-control-input"
+                                                        id="checkDocquyen" name="filterDocquyen">
+                                                    <label class="custom-control-label" for="checkDocquyen">Độc
+                                                        quyền</label>
+                                                </div>
+                                                <div class="custom-control custom-checkbox col-6">
+                                                    <input type="checkbox" class="custom-control-input" id="checkNew"
+                                                        name="filterNew">
+                                                    <label class="custom-control-label" for="checkNew">Mới</label>
+                                                </div>
+                                            </div>
+                                            <div class="row justify-content-between mb-15 pl-15">
+                                                <div class="custom-control custom-checkbox col-6">
+                                                    <input type="checkbox" class="custom-control-input" id="checkGiatot"
+                                                        name="filterGiatot">
+                                                    <label class="custom-control-label" for="checkGiatot">Giá
+                                                        tốt</label>
+                                                </div>
+                                                <div class="custom-control custom-checkbox col-6">
+                                                    <input type="checkbox" class="custom-control-input" id="checkNoibat"
+                                                        name="filterNoibat">
+                                                    <label class="custom-control-label" for="checkNoibat">Nổi
+                                                        bật</label>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="control">
+                                        <div class="row justify-content-end">
+                                            <button class="btn-delete">Xoá</button>
+                                            <button class="btn-update">Cập nhật</button>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="btn-show-result-htm">
+                            <button>Hiển thị kết quả</button>
+                        </div>
+                        <div class="delete-filter">
+                            <a href="#" id="delete-filter">Xoá bộ lọc</a>
+                        </div>
+                        <div class="save-search">
+                            <i class="far fa-heart"></i>
+                            <a href="#">Lưu tìm kiếm</a>
+                        </div>
+                        <div class="view-map">
+                            <span>Xem bản đồ</span>
+                            <div class="custom-control custom-switch">
+                                <input type="checkbox" class="custom-control-input" id="view-map">
+                                <label class="custom-control-label" for="view-map"></label>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- list_project -->
+        <section id="list_project">
+            <div class="container">
+                <div class="title-partial-horizontal">
+                    <img src="../../images/Component_title/rightArrow.png" alt="icon" class="icon-title-horizontal">
+                    <h2>Dự án nổi bật</h2>
+                </div>
+                <div class="owl-carousel owl-theme slide-card-duannoibat mt-3">
+                    <div class="card-slider">
+                        <div class="card-slider-img">
+                            <img src="../../images/Rectangle 280.png" alt="img-slide">
+                        </div>
+                        <div class="card-slide-info">
+                            <div class="card-info-title">
+                                <h5>Sun Grand City Feria</h5>
+                            </div>
+                            <div class="card-detail-info">
+                                <div class="card-adress mg-card">
+                                    <img src="../../images/map-pin.png" alt="">
+                                    <span class="text-card-info">Đường Hạ Long, P. Bãi Cháy, TP. Hạ Long, Quảng
+                                        Ninh</span>
+                                </div>
+                                <div class="card-type mg-card">
+                                    <img src="../../images/number of apartment.png" alt="">
+                                    <span class="text-card-info">Biệt thự Đơn lập – Song lập – Tứ lập</span>
+                                </div>
+                                <div class="card-info-project">
+                                    <div class="card-acreage">
+                                        <img src="../../images/shape-square 4.png" alt="">
+                                        <span class="text-card-info">320 ha</span>
+                                    </div>
+                                    <div class="card-date-slider">
+                                        <img src="../../images/Group 274.png" alt="">
+                                        <span class="text-card-info">15/09/2020</span>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="card-price-slide">
+                                <div class="price-card">
+                                    <span class="vnd">VND</span>
+                                    <span class="amount">3,2 - 9,3 tỷ</span>
+                                </div>
+                                <div class="purchase">
+                                    <img src="../../images/buy-online 1.png" alt="">
+                                    <span>Mua online</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="card-slider">
+                        <div class="card-slider-img">
+                            <img src="../../images/Rectangle 280.png" alt="img-slide">
+                        </div>
+                        <div class="card-slide-info">
+                            <div class="card-info-title">
+                                <h5>Sun Grand City Feria</h5>
+                            </div>
+                            <div class="card-detail-info">
+                                <div class="card-adress mg-card">
+                                    <img src="../../images/map-pin.png" alt="">
+                                    <span class="text-card-info">Đường Hạ Long, P. Bãi Cháy, TP. Hạ Long, Quảng
+                                        Ninh</span>
+                                </div>
+                                <div class="card-type mg-card">
+                                    <img src="../../images/number of apartment.png" alt="">
+                                    <span class="text-card-info">Biệt thự Đơn lập – Song lập – Tứ lập</span>
+                                </div>
+                                <div class="card-info-project">
+                                    <div class="card-acreage">
+                                        <img src="../../images/shape-square 4.png" alt="">
+                                        <span class="text-card-info">320 ha</span>
+                                    </div>
+                                    <div class="card-date-slider">
+                                        <img src="../../images/Group 274.png" alt="">
+                                        <span class="text-card-info">15/09/2020</span>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="card-price-slide">
+                                <div class="price-card">
+                                    <span class="vnd">VND</span>
+                                    <span class="amount">3,2 - 9,3 tỷ</span>
+                                </div>
+                                <div class="purchase">
+                                    <img src="../../images/buy-online 1.png" alt="">
+                                    <span>Mua online</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="card-slider">
+                        <div class="card-slider-img">
+                            <img src="../../images/Rectangle 280.png" alt="img-slide">
+                        </div>
+                        <div class="card-slide-info">
+                            <div class="card-info-title">
+                                <h5>Sun Grand City Feria</h5>
+                            </div>
+                            <div class="card-detail-info">
+                                <div class="card-adress mg-card">
+                                    <img src="../../images/map-pin.png" alt="">
+                                    <span class="text-card-info">Đường Hạ Long, P. Bãi Cháy, TP. Hạ Long, Quảng
+                                        Ninh</span>
+                                </div>
+                                <div class="card-type mg-card">
+                                    <img src="../../images/number of apartment.png" alt="">
+                                    <span class="text-card-info">Biệt thự Đơn lập – Song lập – Tứ lập</span>
+                                </div>
+                                <div class="card-info-project">
+                                    <div class="card-acreage">
+                                        <img src="../../images/shape-square 4.png" alt="">
+                                        <span class="text-card-info">320 ha</span>
+                                    </div>
+                                    <div class="card-date-slider">
+                                        <img src="../../images/Group 274.png" alt="">
+                                        <span class="text-card-info">15/09/2020</span>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="card-price-slide">
+                                <div class="price-card">
+                                    <span class="vnd">VND</span>
+                                    <span class="amount">3,2 - 9,3 tỷ</span>
+                                </div>
+                                <div class="purchase">
+                                    <img src="../../images/buy-online 1.png" alt="">
+                                    <span>Mua online</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="row justify-content-between align-items-center mt-3 m-0 ">
+                    <p id="number-duan" class="m-0">10,0213 Dự án</p>
+                    <a id="showBoLoc" href="#"> <i><img src="../../images/Vector-bo-loc.png" alt=""></i> Bộ lọc tìm
+                        kiếm</a>
+                </div>
+                <div class="flex-map">
+                    <div class="row card-category">
+                        <div class="card card-media-768 col-4 items">
+                            <div class="position-relative">
+                                <div class="owl-carousel owl-theme slide-card">
+                                    <img class="card-img-top" src="../../images/Rectangle 280.png" alt="Card image cap">
+                                    <img class="card-img-top" src="../../images/Rectangle 280.png" alt="Card image cap">
+                                    <img class="card-img-top" src="../../images/Rectangle 280.png" alt="Card image cap">
+                                </div>
+                                <img class="card-badge-new" src="../../images/badge_ new.png" alt="">
+                                <img class="card-badge-price" src="../../images/badge_ price.png" alt="">
+                                <img src="../../images/arrow-filter.png" alt="heart" class="card-badge-hightlight">
+                                <!-- <i class="fa fa-heart card-badge-Group-277 " aria-hidden="true"></i> -->
+                                <div class="card-favourite">
+                                    <button class="like-product-card"><i class="fas fa-heart"></i></button>
+                                </div>
+                            </div>
+                            <div class="card-body p-2">
+                                <a href="../pages/detail-project.html">
+                                    <h5 class="card-title font-weight-bold"> The Terra An Hưng</h5>
+                                </a>
+                                <p class="card-text"><i class="card-text-location"><img src="../../images/map-pin.png"
+                                            alt=""></i> Pho Hue,
+                                    Hoan
+                                    Kiem, Hanoi</p>
+                                <p class="card-text"><i class="card-text-apartment"><img
+                                            src="../../images/number of apartment.png" alt=""></i>
+                                    Chung cư, Shop house, Condotel</p>
+                                <div class="row m-0 justify-content-between">
+                                    <p class="card-text"><i class="card-text-shape"><img
+                                                src="../../images/shape-square 4.png" alt=""></i> 120 -
+                                        350m<sup>2</sup></p>
+                                    <p class="card-text"><i class="card-text-group274"><img
+                                                src="../../images/Group 274.png" alt=""></i>
+                                        15/09/2020
+                                    </p>
+                                </div>
+                                <div class="row m-0 justify-content-between align-items-center">
+                                    <p class="card-price"><span class="card-price-vnd text-white p-1">VNĐ</span> 3,2 - 6
+                                        tỷ
+                                    </p>
+                                    <a class="card-buy text-white p-2" href="#"><i class="card-text-buy"><img
+                                                src="../../images/buy-online 1.png" alt=""></i> Mua Online</a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="card card-media-768 col-4 items">
+                            <div class="position-relative">
+                                <div class="owl-carousel owl-theme slide-card">
+                                    <img class="card-img-top" src="../../images/Rectangle 280.png" alt="Card image cap">
+                                    <img class="card-img-top" src="../../images/Rectangle 280.png" alt="Card image cap">
+                                    <img class="card-img-top" src="../../images/Rectangle 280.png" alt="Card image cap">
+                                </div>
+                                <img class="card-badge-new" src="../../images/badge_ new.png" alt="">
+                                <!-- <i class="fa fa-heart card-badge-Group-277 " aria-hidden="true"></i> -->
+                                <div class="card-favourite">
+                                    <button class="like-product-card"><i class="fas fa-heart"></i></button>
+                                </div>
+                            </div>
+                            <div class="card-body p-2">
+                                <a href="../pages/detail-project.html">
+                                    <h5 class="card-title font-weight-bold"> The Terra An Hưng</h5>
+                                </a>
+                                <p class="card-text"><i class="card-text-location"><img src="../../images/map-pin.png"
+                                            alt=""></i> Pho Hue,
+                                    Hoan
+                                    Kiem, Hanoi</p>
+                                <p class="card-text"><i class="card-text-apartment"><img
+                                            src="../../images/number of apartment.png" alt=""></i>
+                                    Chung cư, Shop house, Condotel</p>
+                                <div class="row m-0 justify-content-between">
+                                    <p class="card-text"><i class="card-text-shape"><img
+                                                src="../../images/shape-square 4.png" alt=""></i> 120 -
+                                        350m<sup>2</sup></p>
+                                    <p class="card-text"><i class="card-text-group274"><img
+                                                src="../../images/Group 274.png" alt=""></i>
+                                        15/09/2020
+                                    </p>
+                                </div>
+                                <div class="row m-0 justify-content-between align-items-center">
+                                    <p class="card-price"><span class="card-price-vnd text-white p-1">VNĐ</span> 3,2 - 6
+                                        tỷ
+                                    </p>
+                                    <a class="card-buy text-white p-2" href="#"><i class="card-text-buy"><img
+                                                src="../../images/buy-online 1.png" alt=""></i> Mua Online</a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="card card-media-768 col-4 items">
+                            <div class="position-relative">
+                                <div class="owl-carousel owl-theme slide-card">
+                                    <img class="card-img-top" src="../../images/Rectangle 280.png" alt="Card image cap">
+                                    <img class="card-img-top" src="../../images/Rectangle 280.png" alt="Card image cap">
+                                    <img class="card-img-top" src="../../images/Rectangle 280.png" alt="Card image cap">
+                                </div>
+                                <img class="card-badge-new" src="../../images/badge_ new.png" alt="">
+                                <!-- <i class="fa fa-heart card-badge-Group-277 " aria-hidden="true"></i> -->
+                                <div class="card-favourite">
+                                    <button class="like-product-card"><i class="fas fa-heart"></i></button>
+                                </div>
+                            </div>
+                            <div class="card-body p-2">
+                                <a href="../pages/detail-project.html">
+                                    <h5 class="card-title font-weight-bold"> The Terra An Hưng</h5>
+                                </a>
+                                <p class="card-text"><i class="card-text-location"><img src="../../images/map-pin.png"
+                                            alt=""></i> Pho Hue,
+                                    Hoan
+                                    Kiem, Hanoi</p>
+                                <p class="card-text"><i class="card-text-apartment"><img
+                                            src="../../images/number of apartment.png" alt=""></i>
+                                    Chung cư, Shop house, Condotel</p>
+                                <div class="row m-0 justify-content-between">
+                                    <p class="card-text"><i class="card-text-shape"><img
+                                                src="../../images/shape-square 4.png" alt=""></i> 120 -
+                                        350m<sup>2</sup></p>
+                                    <p class="card-text"><i class="card-text-group274"><img
+                                                src="../../images/Group 274.png" alt=""></i>
+                                        15/09/2020
+                                    </p>
+                                </div>
+                                <div class="row m-0 justify-content-between align-items-center">
+                                    <p class="card-price"><span class="card-price-vnd text-white p-1">VNĐ</span> 3,2 - 6
+                                        tỷ
+                                    </p>
+                                    <a class="card-buy text-white p-2" href="#"><i class="card-text-buy"><img
+                                                src="../../images/buy-online 1.png" alt=""></i> Mua Online</a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="card card-media-768 col-4 items">
+                            <div class="position-relative">
+                                <div class="owl-carousel owl-theme slide-card">
+                                    <img class="card-img-top" src="../../images/Rectangle 280.png" alt="Card image cap">
+                                    <img class="card-img-top" src="../../images/Rectangle 280.png" alt="Card image cap">
+                                    <img class="card-img-top" src="../../images/Rectangle 280.png" alt="Card image cap">
+                                </div>
+                                <img class="card-badge-new" src="../../images/badge_ new.png" alt="">
+                                <!-- <i class="fa fa-heart card-badge-Group-277 " aria-hidden="true"></i> -->
+                                <div class="card-favourite">
+                                    <button class="like-product-card liked"><i class="fas fa-heart"></i></button>
+                                </div>
+                            </div>
+                            <div class="card-body p-2">
+                                <a href="../pages/detail-project.html">
+                                    <h5 class="card-title font-weight-bold"> The Terra An Hưng</h5>
+                                </a>
+                                <p class="card-text"><i class="card-text-location"><img src="../../images/map-pin.png"
+                                            alt=""></i> Pho Hue,
+                                    Hoan
+                                    Kiem, Hanoi</p>
+                                <p class="card-text"><i class="card-text-apartment"><img
+                                            src="../../images/number of apartment.png" alt=""></i>
+                                    Chung cư, Shop house, Condotel</p>
+                                <div class="row m-0 justify-content-between">
+                                    <p class="card-text"><i class="card-text-shape"><img
+                                                src="../../images/shape-square 4.png" alt=""></i> 120 -
+                                        350m<sup>2</sup></p>
+                                    <p class="card-text"><i class="card-text-group274"><img
+                                                src="../../images/Group 274.png" alt=""></i>
+                                        15/09/2020
+                                    </p>
+                                </div>
+                                <div class="row m-0 justify-content-between align-items-center">
+                                    <p class="card-price"><span class="card-price-vnd text-white p-1">VNĐ</span> 3,2 - 6
+                                        tỷ
+                                    </p>
+                                    <a class="card-buy text-white p-2" href="#"><i class="card-text-buy"><img
+                                                src="../../images/buy-online 1.png" alt=""></i> Mua Online</a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="card card-media-768 col-4 items">
+                            <div class="position-relative">
+                                <div class="owl-carousel owl-theme slide-card">
+                                    <img class="card-img-top" src="../../images/Rectangle 280.png" alt="Card image cap">
+                                    <img class="card-img-top" src="../../images/Rectangle 280.png" alt="Card image cap">
+                                    <img class="card-img-top" src="../../images/Rectangle 280.png" alt="Card image cap">
+                                </div>
+                                <img class="card-badge-new" src="../../images/badge_ new.png" alt="">
+                                <!-- <i class="fa fa-heart card-badge-Group-277 " aria-hidden="true"></i> -->
+                                <div class="card-favourite">
+                                    <button class="like-product-card liked"><i class="fas fa-heart"></i></button>
+                                </div>
+                            </div>
+                            <div class="card-body p-2">
+                                <a href="../pages/detail-project.html">
+                                    <h5 class="card-title font-weight-bold"> The Terra An Hưng</h5>
+                                </a>
+                                <p class="card-text"><i class="card-text-location"><img src="../../images/map-pin.png"
+                                            alt=""></i> Pho Hue,
+                                    Hoan
+                                    Kiem, Hanoi</p>
+                                <p class="card-text"><i class="card-text-apartment"><img
+                                            src="../../images/number of apartment.png" alt=""></i>
+                                    Chung cư, Shop house, Condotel</p>
+                                <div class="row m-0 justify-content-between">
+                                    <p class="card-text"><i class="card-text-shape"><img
+                                                src="../../images/shape-square 4.png" alt=""></i> 120 -
+                                        350m<sup>2</sup></p>
+                                    <p class="card-text"><i class="card-text-group274"><img
+                                                src="../../images/Group 274.png" alt=""></i>
+                                        15/09/2020
+                                    </p>
+                                </div>
+                                <div class="row m-0 justify-content-between align-items-center">
+                                    <p class="card-price"><span class="card-price-vnd text-white p-1">VNĐ</span> 3,2 - 6
+                                        tỷ
+                                    </p>
+                                    <a class="card-buy text-white p-2" href="#"><i class="card-text-buy"><img
+                                                src="../../images/buy-online 1.png" alt=""></i> Mua Online</a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="card card-media-768 col-4 items">
+                            <div class="position-relative">
+                                <div class="owl-carousel owl-theme slide-card">
+                                    <img class="card-img-top" src="../../images/Rectangle 280.png" alt="Card image cap">
+                                    <img class="card-img-top" src="../../images/Rectangle 280.png" alt="Card image cap">
+                                    <img class="card-img-top" src="../../images/Rectangle 280.png" alt="Card image cap">
+                                </div>
+                                <img class="card-badge-new" src="../../images/badge_ new.png" alt="">
+                                <!-- <i class="fa fa-heart card-badge-Group-277 " aria-hidden="true"></i> -->
+                                <div class="card-favourite">
+                                    <button class="like-product-card liked"><i class="fas fa-heart"></i></button>
+                                </div>
+                            </div>
+                            <div class="card-body p-2">
+                                <a href="../pages/detail-project.html">
+                                    <h5 class="card-title font-weight-bold"> The Terra An Hưng</h5>
+                                </a>
+                                <p class="card-text"><i class="card-text-location"><img src="../../images/map-pin.png"
+                                            alt=""></i> Pho Hue,
+                                    Hoan
+                                    Kiem, Hanoi</p>
+                                <p class="card-text"><i class="card-text-apartment"><img
+                                            src="../../images/number of apartment.png" alt=""></i>
+                                    Chung cư, Shop house, Condotel</p>
+                                <div class="row m-0 justify-content-between">
+                                    <p class="card-text"><i class="card-text-shape"><img
+                                                src="../../images/shape-square 4.png" alt=""></i> 120 -
+                                        350m<sup>2</sup></p>
+                                    <p class="card-text"><i class="card-text-group274"><img
+                                                src="../../images/Group 274.png" alt=""></i>
+                                        15/09/2020
+                                    </p>
+                                </div>
+                                <div class="row m-0 justify-content-between align-items-center">
+                                    <p class="card-price"><span class="card-price-vnd text-white p-1">VNĐ</span> 3,2 - 6
+                                        tỷ
+                                    </p>
+                                    <a class="card-buy text-white p-2" href="#"><i class="card-text-buy"><img
+                                                src="../../images/buy-online 1.png" alt=""></i> Mua Online</a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="card card-media-768 col-4 items">
+                            <div class="position-relative">
+                                <div class="owl-carousel owl-theme slide-card">
+                                    <img class="card-img-top" src="../../images/Rectangle 280.png" alt="Card image cap">
+                                    <img class="card-img-top" src="../../images/Rectangle 280.png" alt="Card image cap">
+                                    <img class="card-img-top" src="../../images/Rectangle 280.png" alt="Card image cap">
+                                </div>
+                                <img class="card-badge-new" src="../../images/badge_ new.png" alt="">
+                                <!-- <i class="fa fa-heart card-badge-Group-277 " aria-hidden="true"></i> -->
+                                <div class="card-favourite">
+                                    <button class="like-product-card liked"><i class="fas fa-heart"></i></button>
+                                </div>
+                            </div>
+                            <div class="card-body p-2">
+                                <a href="../pages/detail-project.html">
+                                    <h5 class="card-title font-weight-bold"> The Terra An Hưng</h5>
+                                </a>
+                                <p class="card-text"><i class="card-text-location"><img src="../../images/map-pin.png"
+                                            alt=""></i> Pho Hue,
+                                    Hoan
+                                    Kiem, Hanoi</p>
+                                <p class="card-text"><i class="card-text-apartment"><img
+                                            src="../../images/number of apartment.png" alt=""></i>
+                                    Chung cư, Shop house, Condotel</p>
+                                <div class="row m-0 justify-content-between">
+                                    <p class="card-text"><i class="card-text-shape"><img
+                                                src="../../images/shape-square 4.png" alt=""></i> 120 -
+                                        350m<sup>2</sup></p>
+                                    <p class="card-text"><i class="card-text-group274"><img
+                                                src="../../images/Group 274.png" alt=""></i>
+                                        15/09/2020
+                                    </p>
+                                </div>
+                                <div class="row m-0 justify-content-between align-items-center">
+                                    <p class="card-price"><span class="card-price-vnd text-white p-1">VNĐ</span> 3,2 - 6
+                                        tỷ
+                                    </p>
+                                    <a class="card-buy text-white p-2" href="#"><i class="card-text-buy"><img
+                                                src="../../images/buy-online 1.png" alt=""></i> Mua Online</a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="card card-media-768 col-4 items">
+                            <div class="position-relative">
+                                <div class="owl-carousel owl-theme slide-card">
+                                    <img class="card-img-top" src="../../images/Rectangle 280.png" alt="Card image cap">
+                                    <img class="card-img-top" src="../../images/Rectangle 280.png" alt="Card image cap">
+                                    <img class="card-img-top" src="../../images/Rectangle 280.png" alt="Card image cap">
+                                </div>
+                                <img class="card-badge-new" src="../../images/badge_ new.png" alt="">
+                                <!-- <i class="fa fa-heart card-badge-Group-277 " aria-hidden="true"></i> -->
+                                <div class="card-favourite">
+                                    <button class="like-product-card"><i class="fas fa-heart"></i></button>
+                                </div>
+                            </div>
+                            <div class="card-body p-2">
+                                <a href="../pages/detail-project.html">
+                                    <h5 class="card-title font-weight-bold"> The Terra An Hưng</h5>
+                                </a>
+                                <p class="card-text"><i class="card-text-location"><img src="../../images/map-pin.png"
+                                            alt=""></i> Pho Hue,
+                                    Hoan
+                                    Kiem, Hanoi</p>
+                                <p class="card-text"><i class="card-text-apartment"><img
+                                            src="../../images/number of apartment.png" alt=""></i>
+                                    Chung cư, Shop house, Condotel</p>
+                                <div class="row m-0 justify-content-between">
+                                    <p class="card-text"><i class="card-text-shape"><img
+                                                src="../../images/shape-square 4.png" alt=""></i> 120 -
+                                        350m<sup>2</sup></p>
+                                    <p class="card-text"><i class="card-text-group274"><img
+                                                src="../../images/Group 274.png" alt=""></i>
+                                        15/09/2020
+                                    </p>
+                                </div>
+                                <div class="row m-0 justify-content-between align-items-center">
+                                    <p class="card-price"><span class="card-price-vnd text-white p-1">VNĐ</span> 3,2 - 6
+                                        tỷ
+                                    </p>
+                                    <a class="card-buy text-white p-2" href="#"><i class="card-text-buy"><img
+                                                src="../../images/buy-online 1.png" alt=""></i> Mua Online</a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="card card-media-768 col-4 items">
+                            <div class="position-relative">
+                                <div class="owl-carousel owl-theme slide-card">
+                                    <img class="card-img-top" src="../../images/Rectangle 280.png" alt="Card image cap">
+                                    <img class="card-img-top" src="../../images/Rectangle 280.png" alt="Card image cap">
+                                    <img class="card-img-top" src="../../images/Rectangle 280.png" alt="Card image cap">
+                                </div>
+                                <img class="card-badge-new" src="../../images/badge_ new.png" alt="">
+                                <!-- <i class="fa fa-heart card-badge-Group-277 " aria-hidden="true"></i> -->
+                                <div class="card-favourite">
+                                    <button class="like-product-card"><i class="fas fa-heart"></i></button>
+                                </div>
+                            </div>
+                            <div class="card-body p-2">
+                                <a href="../pages/detail-project.html">
+                                    <h5 class="card-title font-weight-bold"> The Terra An Hưng</h5>
+                                </a>
+                                <p class="card-text"><i class="card-text-location"><img src="../../images/map-pin.png"
+                                            alt=""></i> Pho Hue,
+                                    Hoan
+                                    Kiem, Hanoi</p>
+                                <p class="card-text"><i class="card-text-apartment"><img
+                                            src="../../images/number of apartment.png" alt=""></i>
+                                    Chung cư, Shop house, Condotel</p>
+                                <div class="row m-0 justify-content-between">
+                                    <p class="card-text"><i class="card-text-shape"><img
+                                                src="../../images/shape-square 4.png" alt=""></i> 120 -
+                                        350m<sup>2</sup></p>
+                                    <p class="card-text"><i class="card-text-group274"><img
+                                                src="../../images/Group 274.png" alt=""></i>
+                                        15/09/2020
+                                    </p>
+                                </div>
+                                <div class="row m-0 justify-content-between align-items-center">
+                                    <p class="card-price"><span class="card-price-vnd text-white p-1">VNĐ</span> 3,2 - 6
+                                        tỷ
+                                    </p>
+                                    <a class="card-buy text-white p-2" href="#"><i class="card-text-buy"><img
+                                                src="../../images/buy-online 1.png" alt=""></i> Mua Online</a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="card card-media-768 col-4 items">
+                            <div class="position-relative">
+                                <div class="owl-carousel owl-theme slide-card">
+                                    <img class="card-img-top" src="../../images/Rectangle 280.png" alt="Card image cap">
+                                    <img class="card-img-top" src="../../images/Rectangle 280.png" alt="Card image cap">
+                                    <img class="card-img-top" src="../../images/Rectangle 280.png" alt="Card image cap">
+                                </div>
+                                <img class="card-badge-new" src="../../images/badge_ new.png" alt="">
+                                <!-- <i class="fa fa-heart card-badge-Group-277 " aria-hidden="true"></i> -->
+                                <div class="card-favourite">
+                                    <button class="like-product-card"><i class="fas fa-heart"></i></button>
+                                </div>
+                            </div>
+                            <div class="card-body p-2">
+                                <a href="../pages/detail-project.html">
+                                    <h5 class="card-title font-weight-bold"> The Terra An Hưng</h5>
+                                </a>
+                                <p class="card-text"><i class="card-text-location"><img src="../../images/map-pin.png"
+                                            alt=""></i> Pho Hue,
+                                    Hoan
+                                    Kiem, Hanoi</p>
+                                <p class="card-text"><i class="card-text-apartment"><img
+                                            src="../../images/number of apartment.png" alt=""></i>
+                                    Chung cư, Shop house, Condotel</p>
+                                <div class="row m-0 justify-content-between">
+                                    <p class="card-text"><i class="card-text-shape"><img
+                                                src="../../images/shape-square 4.png" alt=""></i> 120 -
+                                        350m<sup>2</sup></p>
+                                    <p class="card-text"><i class="card-text-group274"><img
+                                                src="../../images/Group 274.png" alt=""></i>
+                                        15/09/2020
+                                    </p>
+                                </div>
+                                <div class="row m-0 justify-content-between align-items-center">
+                                    <p class="card-price"><span class="card-price-vnd text-white p-1">VNĐ</span> 3,2 - 6
+                                        tỷ
+                                    </p>
+                                    <a class="card-buy text-white p-2" href="#"><i class="card-text-buy"><img
+                                                src="../../images/buy-online 1.png" alt=""></i> Mua Online</a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="card card-media-768 col-4 items">
+                            <div class="position-relative">
+                                <div class="owl-carousel owl-theme slide-card">
+                                    <img class="card-img-top" src="../../images/Rectangle 280.png" alt="Card image cap">
+                                    <img class="card-img-top" src="../../images/Rectangle 280.png" alt="Card image cap">
+                                    <img class="card-img-top" src="../../images/Rectangle 280.png" alt="Card image cap">
+                                </div>
+                                <img class="card-badge-new" src="../../images/badge_ new.png" alt="">
+                                <!-- <i class="fa fa-heart card-badge-Group-277 " aria-hidden="true"></i> -->
+                                <div class="card-favourite">
+                                    <button class="like-product-card"><i class="fas fa-heart"></i></button>
+                                </div>
+                            </div>
+                            <div class="card-body p-2">
+                                <a href="../pages/detail-project.html">
+                                    <h5 class="card-title font-weight-bold"> The Terra An Hưng</h5>
+                                </a>
+                                <p class="card-text"><i class="card-text-location"><img src="../../images/map-pin.png"
+                                            alt=""></i> Pho Hue,
+                                    Hoan
+                                    Kiem, Hanoi</p>
+                                <p class="card-text"><i class="card-text-apartment"><img
+                                            src="../../images/number of apartment.png" alt=""></i>
+                                    Chung cư, Shop house, Condotel</p>
+                                <div class="row m-0 justify-content-between">
+                                    <p class="card-text"><i class="card-text-shape"><img
+                                                src="../../images/shape-square 4.png" alt=""></i> 120 -
+                                        350m<sup>2</sup></p>
+                                    <p class="card-text"><i class="card-text-group274"><img
+                                                src="../../images/Group 274.png" alt=""></i>
+                                        15/09/2020
+                                    </p>
+                                </div>
+                                <div class="row m-0 justify-content-between align-items-center">
+                                    <p class="card-price"><span class="card-price-vnd text-white p-1">VNĐ</span> 3,2 - 6
+                                        tỷ
+                                    </p>
+                                    <a class="card-buy text-white p-2" href="#"><i class="card-text-buy"><img
+                                                src="../../images/buy-online 1.png" alt=""></i> Mua Online</a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="card card-media-768 col-4 items">
+                            <div class="position-relative">
+                                <div class="owl-carousel owl-theme slide-card">
+                                    <img class="card-img-top" src="../../images/Rectangle 280.png" alt="Card image cap">
+                                    <img class="card-img-top" src="../../images/Rectangle 280.png" alt="Card image cap">
+                                    <img class="card-img-top" src="../../images/Rectangle 280.png" alt="Card image cap">
+                                </div>
+                                <img class="card-badge-new" src="../../images/badge_ new.png" alt="">
+                                <!-- <i class="fa fa-heart card-badge-Group-277 " aria-hidden="true"></i> -->
+                                <div class="card-favourite">
+                                    <button class="like-product-card"><i class="fas fa-heart"></i></button>
+                                </div>
+                            </div>
+                            <div class="card-body p-2">
+                                <a href="../pages/detail-project.html">
+                                    <h5 class="card-title font-weight-bold"> The Terra An Hưng</h5>
+                                </a>
+                                <p class="card-text"><i class="card-text-location"><img src="../../images/map-pin.png"
+                                            alt=""></i> Pho Hue,
+                                    Hoan
+                                    Kiem, Hanoi</p>
+                                <p class="card-text"><i class="card-text-apartment"><img
+                                            src="../../images/number of apartment.png" alt=""></i>
+                                    Chung cư, Shop house, Condotel</p>
+                                <div class="row m-0 justify-content-between">
+                                    <p class="card-text"><i class="card-text-shape"><img
+                                                src="../../images/shape-square 4.png" alt=""></i> 120 -
+                                        350m<sup>2</sup></p>
+                                    <p class="card-text"><i class="card-text-group274"><img
+                                                src="../../images/Group 274.png" alt=""></i>
+                                        15/09/2020
+                                    </p>
+                                </div>
+                                <div class="row m-0 justify-content-between align-items-center">
+                                    <p class="card-price"><span class="card-price-vnd text-white p-1">VNĐ</span> 3,2 - 6
+                                        tỷ
+                                    </p>
+                                    <a class="card-buy text-white p-2" href="#"><i class="card-text-buy"><img
+                                                src="../../images/buy-online 1.png" alt=""></i> Mua Online</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div id="map">
+                        <div class="iframe-map">
+                            <iframe
+                                src="https://www.google.com/maps/embed?pb=!1m10!1m8!1m3!1d59606.69986479639!2d105.8172996!3d20.9758453!3m2!1i1024!2i768!4f13.1!5e0!3m2!1svi!2s!4v1595319922323!5m2!1svi!2s"
+                                width="100%" height="450" frameborder="0" style="border:0;" allowfullscreen=""
+                                aria-hidden="false" tabindex="0"></iframe>
+                        </div>
+                    </div>
+                </div>
+                <div class="row justify-content-center">
+                    <nav aria-label="Page navigation duannoibat-pagination">
+                        <ul class="pagination">
+                            <li class="page-item"><a class="page-link pre-page" href="#"><i class="fas fa-arrow-left"
+                                        style="visibility: hidden;"></i></a>
+                            </li>
+                            <li class="page-item"><a class="page-link active" href="#">1</a></li>
+                            <li class="page-item"><a class="page-link" href="#">2</a></li>
+                            <li class="page-item"><a class="page-link" href="#">3</a></li>
+                            <li class="page-item"><a class="page-link" href="#">...</a></li>
+                            <li class="page-item"><a class="page-link" href="#">12</a></li>
+                            <li class="page-item"><a class="page-link next-page" href="#"><i
+                                        class="fas fa-arrow-right"></i></a>
+                            </li>
+                        </ul>
+                    </nav>
+                </div>
+                <p class="text-center" style="font-size: 14px;">1-18 trong 10,029 kết quả</p>
+            </div>
+        </section>
+        <!-- MUA NHA TRUC TUYEN -->
+        <section id="pay-home">
+            <div class="container">
+                <div class="muaNhaTrucTuyen-row">
+                    <div class="muaNhaTrucTuyen-columnLeft">
+                        <div class="title-partial-horizontal">
+                            <div>
+                                <img src="../../images/Component_title/rightArrow.png" alt="icon"
+                                    class="icon-title-horizontal">
+                            </div>
+                            <h2>Mua nhà trực tuyến trong 3 bước</h2>
+                        </div>
+                        <div class="content">
+                            <p>Compass Markets for iOS is the first mobile app that puts real-time residential real
+                                estate
+                                data at your fingertips. Instantly access the most recent transaction data as well as
+                                historic sales trends.</p>
+                        </div>
+                        <div class="muaNhaTrucTuyen-img">
+                            <img src="../../images/muanhatructuyen/img.png" alt="">
+                        </div>
+                        <div class="paging">
+                            <a class="page" href="#">1</a>
+                            <span class="line">|</span>
+                            <a class="page" href="#">2</a>
+                            <span class="line">|</span>
+                            <a class="page" href="#">3</a>
+                        </div>
+                        <div class="content2">
+                            <div class="content2-title">
+                                <p>1. Lựa chọn dự án</p>
+                            </div>
+                            <div class="content2-body">
+                                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Excepturi nemo natus fugit
+                                    quis.
+                                    Ea
+                                    cumque animi quisquam obcaecati officiis amet.</p>
+                            </div>
+                        </div>
+                        <div class="columnLeft-button">
+                            <button class="button">Tìm hiểu thêm</button>
+                        </div>
+                    </div>
+                    <div class="muaNhaTrucTuyen-columnRight">
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- FORM -->
+        <section id="form-contact">
+            <div class="container-fluid">
+                <div class="container-form">
+                    <div class="form-web">
+                        <div class="partner_reti">
+                            <div class="title-partial">
+                                <img src="../../images/Component_title/Vector.svg" alt="icon" class="icon-title">
+                                <h2>Bạn chưa tìm được căn hộ ưng ý</h2>
+                            </div>
+                        </div>
+                        <form>
+                            <div class="form-group">
+                                <input type="text" class="form-control" placeholder="Họ và tên">
+                            </div>
+                            <div class="d-flex">
+                                <div class="form-group form-email">
+                                    <input type="email" class="form-control" placeholder="Email">
+                                </div>
+                                <div class="form-group form-number">
+                                    <input type="number" class="form-control" placeholder="Số điện thoại">
+                                </div>
+                            </div>
+                            <div class="form-group">
+                                <textarea class="form-control" placeholder="Thông điệp" rows="7"></textarea>
+                            </div>
+                            <button class="btn-submit">Gửi ngay</button>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </section> <!-- Đăng ký trở thành RETIAN ngay hôm nay -->
+
+        <!-- Dự án chung cư tại Hà Nội -->
+        <section class="home-section-10">
+            <div class="container">
+                <div class="project_classification">
+                    <div class="project col-lg-3 col-md-6 col-12">
+                        <h6>Dự án chung cư tại Hà Nội</h6>
+                        <ul>
+                            <li><a href="#">Chung cư quận Cầu Giấy</a></li>
+                            <li><a href="#">Chung cư quận Đống Đa</a></li>
+                            <li><a href="#">Chung cư quận Ba Đình</a></li>
+                            <li><a href="#">Chung cư quận Thanh Xuân</a></li>
+                            <li><a href="#">Chung cư quận Hoàng Mai</a></li>
+                        </ul>
+                        <a href="#"><span>Xem thêm</span><i class="fas fa-chevron-down icon-more"></i></a>
+                    </div>
+                    <div class="project col-lg-3 col-md-6 col-12">
+                        <h6>Bất động sản nghỉ dưỡng</h6>
+                        <ul>
+                            <li><a href="#">Đất ven biển Nha Trang</a></li>
+                            <li><a href="#">Condotel Hạ Long</a></li>
+                            <li><a href="#">Condotel Hạ Long</a></li>
+                            <li><a href="#">Condotel Hạ Long</a></li>
+                            <li><a href="#">Biệt thự biển Hạ Long</a></li>
+                            <li><a href="#">Condotel Hạ Long</a></li>
+                        </ul>
+                        <a href="#"><span>Xem thêm</span><i class="fas fa-chevron-down icon-more"></i></a>
+                    </div>
+                    <div class="project col-lg-3 col-md-6 col-12">
+                        <h6>Dự án theo phân khúc</h6>
+                        <ul>
+                            <li><a href="#">Căn hộ chung cư bình dân</a></li>
+                            <li><a href="#">Căn hộ chung cư cao cấp</a></li>
+                            <li><a href="#">Condotel Hạ Long</a></li>
+                            <li><a href="#">Condotel 3 - 5 tỷ</a></li>
+                            <li><a href="#">Biệt thự 10 - 20 tỷ</a></li>
+                            <li><a href="#">Bất động sản nghỉ dưỡng 5 -10 tỷ</a></li>
+                        </ul>
+                        <a href="#"><span>Xem thêm</span><i class="fas fa-chevron-down icon-more"></i></a>
+                    </div>
+                    <div class="project col-lg-3 col-md-6 col-12">
+                        <h6>Dự án nổi bật</h6>
+                        <ul>
+                            <li><a href="#">Dự án Terra An Hưng</a></li>
+                            <li><a href="#">Dự án Alipha City</a></li>
+                            <li><a href="#">Dự án APEC Mandala Wyndham Mũi Né</a></li>
+                            <li><a href="#">Dự án Lotus Center Vimefulland</a></li>
+                        </ul>
+                        <a href="#"><span>Xem thêm</span><i class="fas fa-chevron-down icon-more"></i></a>
+                    </div>
+                </div>
+            </div>
+        </section> <!-- Dự án chung cư tại Hà Nội -->
+
+        <!-- Banner Small Home  -->
+        <section class="home-section-11">
+            <div class="home-banner-small">
+                <div class="blur"></div>
+                <div class="info-mobile">
+                    <p>Chuyên viên RETI luôn sẵn sàng giúp đỡ mọi nhu cầu bất động sản của bạn</p>
+                    <button>Liên hệ ngay</button>
+                </div>
+            </div>
+        </section> <!-- Banner Small Home  -->
+
+        </section>
+    </main>
+
+    <footer>
+        <div id="footer">
+            <div class="top-footer">
+                <div class="container">
+                    <img src="../../images/footer/Group.png" alt="" class="logo">
+                    <div class="row">
+                        <div class="col-lg-4 col-md-4 col-12 border-mobile introduce">
+                            <div class="logo-footer">
+                                <span class="sologan">Smart move, Life changer</span>
+                            </div>
+                            <div class="adress mt-20">
+                                <img src="../../images/footer/Vector.png" alt="">
+                                <span>Số 9a ngõ 9 Hoàng Cầu, Đống Đa, Hà Nội</span>
+                            </div>
+                            <div class="phone-number mt-20">
+                                <img src="../../images//footer/vector2.png" alt="">
+                                <span>0988 969 879</span>
+                            </div>
+                            <div class="mail mt-20">
+                                <img src="../../images//footer/vector3.png" alt="">
+                                <span>support@reti.vn</span>
+                            </div>
+                            <div class="social-network mt-20">
+                                <img src="../../images/footer/face.png" alt="facebook">
+                                <img src="../../images/footer/insta.png" alt="insta">
+                                <img src="../../images/footer/in.png" alt="in">
+                            </div>
+                        </div>
+                        <div class="col-lg-8 col-md-8 col-12 row ml-0 mr-0 info-footer footer-nowrap">
+                            <div class="col-lg-4">
+                                <div class="project-footer">
+                                    <h6 class="title-footer">Dự án</h6>
+                                    <ul>
+                                        <li><a href="#">Về RETI</a></li>
+                                        <li><a href="#">Trở thành Đại lý</a></li>
+                                    </ul>
+                                </div>
+                            </div>
+                            <div class="col-lg-4">
+                                <div class="sevice">
+                                    <h6 class="title-footer">Dịch vụ</h6>
+                                    <ul>
+                                        <li><a href="#">Công nghệ</a></li>
+                                        <li><a href="#">Marketing</a></li>
+                                        <li><a href="#">Phát triển BĐS</a></li>
+                                        <li><a href="#">Phân phối BĐS</a></li>
+                                    </ul>
+                                </div>
+                            </div>
+                            <div class="col-lg-3">
+                                <div class="sevice">
+                                    <h6 class="title-footer">Tin tức</h6>
+                                    <ul>
+                                        <li><a href="#">Tin thị trường</a></li>
+                                        <li><a href="#">Phân tích dự án</a></li>
+                                        <li><a href="#">Pháp luật BĐS</a></li>
+                                        <li><a href="#">Cẩm nang BĐS</a></li>
+                                        <li><a href="#">Phong thủy BĐS</a></li>
+                                        <li class="view-all"><a href="#">Xem tất cả</a></li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="bottom-footer">
+                <div class="container">
+                    <div class="row align-items-center">
+                        <div class="col-lg-8 col-md-8 col-sm-12">
+                            <img src="../../images/footer/bo-cong-thuong 1.png" alt="">
+                            <p class="font-size-bottom">Giấy chứng nhận Đăng ký Kinh doanh số 0109115418, cấp ngày
+                                4/03/2020
+                                tại Hà Nội</p>
+                        </div>
+                        <div class="col-lg-4 col-md-4 col-9 policy">
+                            <div class="row policy-around">
+                                <span class="font-size-bottom policy-color policy-mobile">Chính sách bảo mật</span>
+                                <span class="font-size-bottom policy-color">Điều khoản và điều kiện</span>
+                            </div>
+                            <div class="row license">
+                                <span class="font-size-bottom">© 2020 RETI Đã đăng ký bản quyền.</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <!--Framework JS-->
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"
+        integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN"
+        crossorigin="anonymous"></script>
+    <script src="../../lib/slick/slick.min.js"></script>
+    <script type="text/javascript"
+        src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/ion-rangeslider/2.3.1/js/ion.rangeSlider.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
+        integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
+        crossorigin="anonymous"></script>
+    <script src="../../js/slider.js"></script>
+    <script src="../../js/main.js"></script>
+    <script src="../../js/header.js"></script>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"
+        integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q"
+        crossorigin="anonymous"></script>
+</body>
+
+</html>
