@@ -1,7 +1,8 @@
 repo_name: minhitsoft12/minhitsoft.github.io
 report_id: 36a9a271a4d8aa3152d6d51d07b18eab
+version: 0.1
 repo_type: Public
-timestamp: '2023-12-06T03:38:33+00:00'
+timestamp: '2024-01-05T08:28:54+00:00'
 requested_by: minhitsoft12
 provider: github
 branch: main
@@ -15,6 +16,7 @@ tools:
   category: Languages & Frameworks
   sub_category: Languages
   image_url: https://img.stackshare.io/service/6727/css.png
+  detection_source_url: https://github.com/minhitsoft12/minhitsoft.github.io
   detection_source: Repo Metadata
 - name: Handlebars.js
   description: Minimal Templating on Steroids
@@ -24,6 +26,7 @@ tools:
   category: Languages & Frameworks
   sub_category: Templating Languages & Extensions
   image_url: https://img.stackshare.io/service/1143/Handlebars.png
+  detection_source_url: https://github.com/minhitsoft12/minhitsoft.github.io
   detection_source: Repo Metadata
 - name: JavaScript
   description: Lightweight, interpreted, object-oriented language with first-class
@@ -34,6 +37,7 @@ tools:
   category: Languages & Frameworks
   sub_category: Languages
   image_url: https://img.stackshare.io/service/1209/javascript.jpeg
+  detection_source_url: https://github.com/minhitsoft12/minhitsoft.github.io
   detection_source: Repo Metadata
 - name: Ruby
   description: A dynamic, interpreted, open source programming language with a focus
@@ -44,6 +48,7 @@ tools:
   category: Languages & Frameworks
   sub_category: Languages
   image_url: https://img.stackshare.io/service/989/ruby.png
+  detection_source_url: https://github.com/minhitsoft12/minhitsoft.github.io
   detection_source: Repo Metadata
 - name: jQuery
   description: The Write Less, Do More, JavaScript Library.
@@ -55,7 +60,7 @@ tools:
   category: Libraries
   sub_category: Javascript UI Libraries
   image_url: https://img.stackshare.io/service/1021/lxEKmMnB_400x400.jpg
-  detection_source_url: github.com/minhitsoft12/minhitsoft.github.io/blob/main/lib/OwlCarousel2-2.3.4/package-lock.json
+  detection_source_url: https://github.com/minhitsoft12/minhitsoft.github.io/blob/main/lib/OwlCarousel2-2.3.4/package-lock.json
   detection_source: lib/OwlCarousel2-2.3.4/bower.json
   last_updated_by: minhitsoft
   last_updated_on: 2020-12-03 10:32:17.000000000 Z
@@ -67,6 +72,7 @@ tools:
   category: Build, Test, Deploy
   sub_category: Version Control System
   image_url: https://img.stackshare.io/service/1046/git.png
+  detection_source_url: https://github.com/minhitsoft12/minhitsoft.github.io
   detection_source: Repo Metadata
 - name: Grunt
   description: The JavaScript Task Runner
@@ -77,7 +83,7 @@ tools:
   category: Build, Test, Deploy
   sub_category: JS Build Tools / JS Task Runners
   image_url: https://img.stackshare.io/service/845/falgg2jybmhgk16y62lr.png
-  detection_source_url: github.com/minhitsoft12/minhitsoft.github.io/blob/main/lib/OwlCarousel2-2.3.4/package-lock.json
+  detection_source_url: https://github.com/minhitsoft12/minhitsoft.github.io/blob/main/lib/OwlCarousel2-2.3.4/package-lock.json
   detection_source: lib/OwlCarousel2-2.3.4/package.json
   last_updated_by: minhitsoft
   last_updated_on: 2020-12-03 10:32:17.000000000 Z
@@ -90,6 +96,7 @@ tools:
   category: Build, Test, Deploy
   sub_category: Javascript Testing Framework
   image_url: https://img.stackshare.io/service/1421/b706f022230831a3d391db504a139e21.png
+  detection_source_url: https://github.com/minhitsoft12/minhitsoft.github.io/blob/main/lib/OwlCarousel2-2.3.4/package.json
   detection_source: lib/OwlCarousel2-2.3.4/package.json
   last_updated_by: minhitsoft
   last_updated_on: 2020-12-03 10:32:17.000000000 Z
@@ -102,6 +109,7 @@ tools:
   category: Build, Test, Deploy
   sub_category: Continuous Integration
   image_url: https://img.stackshare.io/service/460/Lu6cGu0z_400x400.png
+  detection_source_url: https://github.com/minhitsoft12/minhitsoft.github.io/blob/main/lib/OwlCarousel2-2.3.4/.travis.yml
   detection_source: lib/OwlCarousel2-2.3.4/.travis.yml
   last_updated_by: minhitsoft
   last_updated_on: 2020-12-03 10:32:17.000000000 Z
@@ -113,6 +121,7 @@ tools:
   category: Build, Test, Deploy
   sub_category: Front End Package Manager
   image_url: https://img.stackshare.io/service/1120/lejvzrnlpb308aftn31u.png
+  detection_source_url: https://github.com/minhitsoft12/minhitsoft.github.io/blob/main/lib/OwlCarousel2-2.3.4/package.json
   detection_source: lib/OwlCarousel2-2.3.4/package.json
   last_updated_by: minhitsoft
   last_updated_on: 2020-12-03 10:32:17.000000000 Z
@@ -125,6 +134,7 @@ tools:
   category: Application Utilities
   sub_category: Static Site Generators
   image_url: https://img.stackshare.io/service/1113/preview.png
+  detection_source_url: https://github.com/minhitsoft12/minhitsoft.github.io/blob/main/lib/OwlCarousel2-2.3.4/package.json
   detection_source: lib/OwlCarousel2-2.3.4/package.json
   last_updated_by: minhitsoft
   last_updated_on: 2020-12-03 10:32:17.000000000 Z
@@ -134,6 +144,7 @@ tools:
   open_source: false
   hosted_saas: false
   image_url: https://img.stackshare.io/service/2270/no-img-open-source.png
+  detection_source_url: https://github.com/minhitsoft12/minhitsoft.github.io/blob/main/html/pages/detail-apartment.html
   detection_source: html/pages/detail-apartment.html
   last_updated_by: minhitsoft
   last_updated_on: 2020-12-03 10:32:17.000000000 Z
@@ -147,7 +158,7 @@ tools:
   category: Libraries
   sub_category: npm Packages
   image_url: https://img.stackshare.io/package/16545/default_d522554c6a41cb28d922d6d3ad32ad4afa0e3bb5.png
-  detection_source_url: github.com/minhitsoft12/minhitsoft.github.io/blob/main/lib/OwlCarousel2-2.3.4/package-lock.json
+  detection_source_url: https://github.com/minhitsoft12/minhitsoft.github.io/blob/main/lib/OwlCarousel2-2.3.4/package-lock.json
   detection_source: lib/OwlCarousel2-2.3.4/package.json
   last_updated_by: minhitsoft
   last_updated_on: 2020-12-03 10:32:17.000000000 Z
@@ -161,7 +172,7 @@ tools:
   category: Libraries
   sub_category: npm Packages
   image_url: https://img.stackshare.io/package/18645/default_21721efb0d3e7a00ca806e911e210746856b696d.png
-  detection_source_url: github.com/minhitsoft12/minhitsoft.github.io/blob/main/lib/OwlCarousel2-2.3.4/package-lock.json
+  detection_source_url: https://github.com/minhitsoft12/minhitsoft.github.io/blob/main/lib/OwlCarousel2-2.3.4/package-lock.json
   detection_source: lib/OwlCarousel2-2.3.4/package.json
   last_updated_by: minhitsoft
   last_updated_on: 2020-12-03 10:32:17.000000000 Z
@@ -176,7 +187,7 @@ tools:
   category: Libraries
   sub_category: npm Packages
   image_url: https://img.stackshare.io/package/17148/default_9746cbb559e39df4afd8298f9a252dff8519e646.png
-  detection_source_url: github.com/minhitsoft12/minhitsoft.github.io/blob/main/lib/OwlCarousel2-2.3.4/package-lock.json
+  detection_source_url: https://github.com/minhitsoft12/minhitsoft.github.io/blob/main/lib/OwlCarousel2-2.3.4/package-lock.json
   detection_source: lib/OwlCarousel2-2.3.4/package.json
   last_updated_by: minhitsoft
   last_updated_on: 2020-12-03 10:32:17.000000000 Z
@@ -190,7 +201,7 @@ tools:
   category: Libraries
   sub_category: npm Packages
   image_url: https://img.stackshare.io/package/17430/default_f52a9ea80d1a46080182faf142d844b81ca11aa6.png
-  detection_source_url: github.com/minhitsoft12/minhitsoft.github.io/blob/main/lib/OwlCarousel2-2.3.4/package-lock.json
+  detection_source_url: https://github.com/minhitsoft12/minhitsoft.github.io/blob/main/lib/OwlCarousel2-2.3.4/package-lock.json
   detection_source: lib/OwlCarousel2-2.3.4/package.json
   last_updated_by: minhitsoft
   last_updated_on: 2020-12-03 10:32:17.000000000 Z
@@ -204,7 +215,7 @@ tools:
   category: Libraries
   sub_category: npm Packages
   image_url: https://img.stackshare.io/package/15939/default_8b5680d4e916298d08363c291a0d6e34c07ceb15.png
-  detection_source_url: github.com/minhitsoft12/minhitsoft.github.io/blob/main/lib/OwlCarousel2-2.3.4/package-lock.json
+  detection_source_url: https://github.com/minhitsoft12/minhitsoft.github.io/blob/main/lib/OwlCarousel2-2.3.4/package-lock.json
   detection_source: lib/OwlCarousel2-2.3.4/package.json
   last_updated_by: minhitsoft
   last_updated_on: 2020-12-03 10:32:17.000000000 Z
@@ -218,7 +229,7 @@ tools:
   category: Libraries
   sub_category: npm Packages
   image_url: https://img.stackshare.io/package/16797/default_661bbd7f9556b6c5c0b8be11cd13e1813fc5c977.png
-  detection_source_url: github.com/minhitsoft12/minhitsoft.github.io/blob/main/lib/OwlCarousel2-2.3.4/package-lock.json
+  detection_source_url: https://github.com/minhitsoft12/minhitsoft.github.io/blob/main/lib/OwlCarousel2-2.3.4/package-lock.json
   detection_source: lib/OwlCarousel2-2.3.4/package.json
   last_updated_by: minhitsoft
   last_updated_on: 2020-12-03 10:32:17.000000000 Z
@@ -232,7 +243,7 @@ tools:
   category: Libraries
   sub_category: npm Packages
   image_url: https://img.stackshare.io/package/16075/default_d4e765f8a43dcfd232c8b9ee9732058bc27c727a.png
-  detection_source_url: github.com/minhitsoft12/minhitsoft.github.io/blob/main/lib/OwlCarousel2-2.3.4/package-lock.json
+  detection_source_url: https://github.com/minhitsoft12/minhitsoft.github.io/blob/main/lib/OwlCarousel2-2.3.4/package-lock.json
   detection_source: lib/OwlCarousel2-2.3.4/package.json
   last_updated_by: minhitsoft
   last_updated_on: 2020-12-03 10:32:17.000000000 Z
@@ -246,7 +257,7 @@ tools:
   category: Libraries
   sub_category: npm Packages
   image_url: https://img.stackshare.io/package/16236/default_380ae3d73e22c7ca1f42b96479bcd0095dabc0d3.png
-  detection_source_url: github.com/minhitsoft12/minhitsoft.github.io/blob/main/lib/OwlCarousel2-2.3.4/package-lock.json
+  detection_source_url: https://github.com/minhitsoft12/minhitsoft.github.io/blob/main/lib/OwlCarousel2-2.3.4/package-lock.json
   detection_source: lib/OwlCarousel2-2.3.4/package.json
   last_updated_by: minhitsoft
   last_updated_on: 2020-12-03 10:32:17.000000000 Z
@@ -260,7 +271,7 @@ tools:
   category: Libraries
   sub_category: npm Packages
   image_url: https://img.stackshare.io/package/16056/default_c7b204838197013798409fa2b4dafce450edc7fb.png
-  detection_source_url: github.com/minhitsoft12/minhitsoft.github.io/blob/main/lib/OwlCarousel2-2.3.4/package-lock.json
+  detection_source_url: https://github.com/minhitsoft12/minhitsoft.github.io/blob/main/lib/OwlCarousel2-2.3.4/package-lock.json
   detection_source: lib/OwlCarousel2-2.3.4/package.json
   last_updated_by: minhitsoft
   last_updated_on: 2020-12-03 10:32:17.000000000 Z
@@ -274,7 +285,7 @@ tools:
   category: Libraries
   sub_category: npm Packages
   image_url: https://img.stackshare.io/package/16324/default_b5c8f3c8e46d368f74a982d06d7f13291fe651ea.png
-  detection_source_url: github.com/minhitsoft12/minhitsoft.github.io/blob/main/lib/OwlCarousel2-2.3.4/package-lock.json
+  detection_source_url: https://github.com/minhitsoft12/minhitsoft.github.io/blob/main/lib/OwlCarousel2-2.3.4/package-lock.json
   detection_source: lib/OwlCarousel2-2.3.4/package.json
   last_updated_by: minhitsoft
   last_updated_on: 2020-12-03 10:32:17.000000000 Z
@@ -288,7 +299,7 @@ tools:
   category: Libraries
   sub_category: npm Packages
   image_url: https://img.stackshare.io/package/15898/default_59a1b5716eefa3750c20936c3d53ff13a6390ee1.png
-  detection_source_url: github.com/minhitsoft12/minhitsoft.github.io/blob/main/lib/OwlCarousel2-2.3.4/package-lock.json
+  detection_source_url: https://github.com/minhitsoft12/minhitsoft.github.io/blob/main/lib/OwlCarousel2-2.3.4/package-lock.json
   detection_source: lib/OwlCarousel2-2.3.4/package.json
   last_updated_by: minhitsoft
   last_updated_on: 2020-12-03 10:32:17.000000000 Z
@@ -302,7 +313,7 @@ tools:
   category: Libraries
   sub_category: npm Packages
   image_url: https://img.stackshare.io/package/16756/default_6e51a44775c61dcb2888547ad406a2f0cf2c344e.png
-  detection_source_url: github.com/minhitsoft12/minhitsoft.github.io/blob/main/lib/OwlCarousel2-2.3.4/package-lock.json
+  detection_source_url: https://github.com/minhitsoft12/minhitsoft.github.io/blob/main/lib/OwlCarousel2-2.3.4/package-lock.json
   detection_source: lib/OwlCarousel2-2.3.4/package.json
   last_updated_by: minhitsoft
   last_updated_on: 2020-12-03 10:32:17.000000000 Z
@@ -316,7 +327,7 @@ tools:
   category: Libraries
   sub_category: npm Packages
   image_url: https://img.stackshare.io/package/15954/default_ac622bc364a601d766b9a6f6039f191492f54d65.png
-  detection_source_url: github.com/minhitsoft12/minhitsoft.github.io/blob/main/lib/OwlCarousel2-2.3.4/package-lock.json
+  detection_source_url: https://github.com/minhitsoft12/minhitsoft.github.io/blob/main/lib/OwlCarousel2-2.3.4/package-lock.json
   detection_source: lib/OwlCarousel2-2.3.4/package.json
   last_updated_by: minhitsoft
   last_updated_on: 2020-12-03 10:32:17.000000000 Z
@@ -330,7 +341,7 @@ tools:
   category: Libraries
   sub_category: npm Packages
   image_url: https://img.stackshare.io/package/15932/default_4dc9671df0093fd7061f6455afdf054e6cc9dacb.png
-  detection_source_url: github.com/minhitsoft12/minhitsoft.github.io/blob/main/lib/OwlCarousel2-2.3.4/package-lock.json
+  detection_source_url: https://github.com/minhitsoft12/minhitsoft.github.io/blob/main/lib/OwlCarousel2-2.3.4/package-lock.json
   detection_source: lib/OwlCarousel2-2.3.4/package.json
   last_updated_by: minhitsoft
   last_updated_on: 2020-12-03 10:32:17.000000000 Z
@@ -344,7 +355,7 @@ tools:
   category: Libraries
   sub_category: npm Packages
   image_url: https://img.stackshare.io/package/17639/default_9126b5a628d81e3d41c9b1190587ab1aec9165c5.png
-  detection_source_url: github.com/minhitsoft12/minhitsoft.github.io/blob/main/lib/OwlCarousel2-2.3.4/package-lock.json
+  detection_source_url: https://github.com/minhitsoft12/minhitsoft.github.io/blob/main/lib/OwlCarousel2-2.3.4/package-lock.json
   detection_source: lib/OwlCarousel2-2.3.4/package.json
   last_updated_by: minhitsoft
   last_updated_on: 2020-12-03 10:32:17.000000000 Z
@@ -358,7 +369,7 @@ tools:
   category: Libraries
   sub_category: npm Packages
   image_url: https://img.stackshare.io/package/16510/default_4e3259350c525d1d859fa80a938000081d7c9db8.png
-  detection_source_url: github.com/minhitsoft12/minhitsoft.github.io/blob/main/lib/OwlCarousel2-2.3.4/package-lock.json
+  detection_source_url: https://github.com/minhitsoft12/minhitsoft.github.io/blob/main/lib/OwlCarousel2-2.3.4/package-lock.json
   detection_source: lib/OwlCarousel2-2.3.4/package.json
   last_updated_by: minhitsoft
   last_updated_on: 2020-12-03 10:32:17.000000000 Z
@@ -372,7 +383,7 @@ tools:
   category: Libraries
   sub_category: npm Packages
   image_url: https://img.stackshare.io/package/16916/default_2e3ed47575edcaf407097e6171e3d4cb8681a6b3.png
-  detection_source_url: github.com/minhitsoft12/minhitsoft.github.io/blob/main/lib/OwlCarousel2-2.3.4/package-lock.json
+  detection_source_url: https://github.com/minhitsoft12/minhitsoft.github.io/blob/main/lib/OwlCarousel2-2.3.4/package-lock.json
   detection_source: lib/OwlCarousel2-2.3.4/package.json
   last_updated_by: minhitsoft
   last_updated_on: 2020-12-03 10:32:17.000000000 Z
@@ -386,7 +397,7 @@ tools:
   category: Libraries
   sub_category: npm Packages
   image_url: https://img.stackshare.io/package/16062/default_924b66c04aa848a4028c1a5753a23dae0f835f86.png
-  detection_source_url: github.com/minhitsoft12/minhitsoft.github.io/blob/main/lib/OwlCarousel2-2.3.4/package-lock.json
+  detection_source_url: https://github.com/minhitsoft12/minhitsoft.github.io/blob/main/lib/OwlCarousel2-2.3.4/package-lock.json
   detection_source: lib/OwlCarousel2-2.3.4/package.json
   last_updated_by: minhitsoft
   last_updated_on: 2020-12-03 10:32:17.000000000 Z
@@ -400,7 +411,7 @@ tools:
   category: Libraries
   sub_category: npm Packages
   image_url: https://img.stackshare.io/package/18398/default_f4061389234135da82c3938a911e52969aa2abae.png
-  detection_source_url: github.com/minhitsoft12/minhitsoft.github.io/blob/main/lib/OwlCarousel2-2.3.4/package-lock.json
+  detection_source_url: https://github.com/minhitsoft12/minhitsoft.github.io/blob/main/lib/OwlCarousel2-2.3.4/package-lock.json
   detection_source: lib/OwlCarousel2-2.3.4/package.json
   last_updated_by: minhitsoft
   last_updated_on: 2020-12-03 10:32:17.000000000 Z
@@ -414,7 +425,7 @@ tools:
   category: Libraries
   sub_category: npm Packages
   image_url: https://img.stackshare.io/package/16684/default_e3c0987b80983280e46e6e1723fcfcff50fa4824.png
-  detection_source_url: github.com/minhitsoft12/minhitsoft.github.io/blob/main/lib/OwlCarousel2-2.3.4/package-lock.json
+  detection_source_url: https://github.com/minhitsoft12/minhitsoft.github.io/blob/main/lib/OwlCarousel2-2.3.4/package-lock.json
   detection_source: lib/OwlCarousel2-2.3.4/package.json
   last_updated_by: minhitsoft
   last_updated_on: 2020-12-03 10:32:17.000000000 Z
