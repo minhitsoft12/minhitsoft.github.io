@@ -3,14 +3,14 @@
 ## Tech Stack
 minhitsoft12/minhitsoft.github.io is built on the following main stack:
 
-- [Grunt](http://gruntjs.com/) – JS Build Tools / JS Task Runners
-- [Ruby](https://www.ruby-lang.org) – Languages
-- [jQuery](http://jquery.com/) – Javascript UI Libraries
-- [Assemble](http://assemble.io/) – Static Site Generators
 - [Handlebars.js](http://handlebarsjs.com/) – Templating Languages & Extensions
 - [JavaScript](https://developer.mozilla.org/en-US/docs/Web/JavaScript) – Languages
+- [Ruby](https://www.ruby-lang.org) – Languages
+- [jQuery](http://jquery.com/) – Javascript UI Libraries
+- [Grunt](http://gruntjs.com/) – JS Build Tools / JS Task Runners
 - [QUnit](http://qunitjs.com/) – Javascript Testing Framework
 - [Travis CI](http://travis-ci.com/) – Continuous Integration
+- [Assemble](http://assemble.io/) – Static Site Generators
 
 Full tech stack [here](/techstack.md)
 
@@ -20,14 +20,14 @@ Full tech stack [here](/techstack.md)
 ## Tech Stack
 minhitsoft12/minhitsoft.github.io is built on the following main stack:
 
-- <img width='25' height='25' src='https://img.stackshare.io/service/845/falgg2jybmhgk16y62lr.png' alt='Grunt'/> [Grunt](http://gruntjs.com/) – JS Build Tools / JS Task Runners
-- <img width='25' height='25' src='https://img.stackshare.io/service/989/ruby.png' alt='Ruby'/> [Ruby](https://www.ruby-lang.org) – Languages
-- <img width='25' height='25' src='https://img.stackshare.io/service/1021/lxEKmMnB_400x400.jpg' alt='jQuery'/> [jQuery](http://jquery.com/) – Javascript UI Libraries
-- <img width='25' height='25' src='https://img.stackshare.io/service/1113/preview.png' alt='Assemble'/> [Assemble](http://assemble.io/) – Static Site Generators
 - <img width='25' height='25' src='https://img.stackshare.io/service/1143/Handlebars.png' alt='Handlebars.js'/> [Handlebars.js](http://handlebarsjs.com/) – Templating Languages & Extensions
 - <img width='25' height='25' src='https://img.stackshare.io/service/1209/javascript.jpeg' alt='JavaScript'/> [JavaScript](https://developer.mozilla.org/en-US/docs/Web/JavaScript) – Languages
+- <img width='25' height='25' src='https://img.stackshare.io/service/989/ruby.png' alt='Ruby'/> [Ruby](https://www.ruby-lang.org) – Languages
+- <img width='25' height='25' src='https://img.stackshare.io/service/1021/lxEKmMnB_400x400.jpg' alt='jQuery'/> [jQuery](http://jquery.com/) – Javascript UI Libraries
+- <img width='25' height='25' src='https://img.stackshare.io/service/845/falgg2jybmhgk16y62lr.png' alt='Grunt'/> [Grunt](http://gruntjs.com/) – JS Build Tools / JS Task Runners
 - <img width='25' height='25' src='https://img.stackshare.io/service/1421/b706f022230831a3d391db504a139e21.png' alt='QUnit'/> [QUnit](http://qunitjs.com/) – Javascript Testing Framework
 - <img width='25' height='25' src='https://img.stackshare.io/service/460/Lu6cGu0z_400x400.png' alt='Travis CI'/> [Travis CI](http://travis-ci.com/) – Continuous Integration
+- <img width='25' height='25' src='https://img.stackshare.io/service/1113/preview.png' alt='Assemble'/> [Assemble](http://assemble.io/) – Static Site Generators
 
 Full tech stack [here](/techstack.md)
 
@@ -38,7 +38,7 @@ Full tech stack [here](/techstack.md)
 # Tech Stack File
 ![](https://img.stackshare.io/repo.svg "repo") [minhitsoft12/minhitsoft.github.io](https://github.com/minhitsoft12/minhitsoft.github.io)![](https://img.stackshare.io/public_badge.svg "public")
 <br/><br/>
-|32<br/>Tools used|01/05/24 <br/>Report generated|
+|32<br/>Tools used|02/29/24 <br/>Report generated|
 |------|------|
 </div>
 
